@@ -267,6 +267,9 @@ if (takeProfits.length > 0) {
 
 // Trade Runner expects FLAT structure with REQUIRED fields
 const tradeRunnerRequest = {
+    // ===== MESSAGE FOR IF NODE =====
+    message: "TRADE_SELECTED",  // ⚡ IF node checks this!
+
     // ===== REQUIRED FIELDS =====
     symbol: symbol,
     side: bybitSide,
