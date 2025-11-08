@@ -32,7 +32,9 @@ if (!input || input.length === 0) {
     }];
 }
 
-const lastItem = input[input.length - 1].json;
+// ⚡ ALWAYS take FIRST item (rank 1 - best score!)
+// If Trade Selector returns multiple trades, we want the best one
+const lastItem = input[0].json;
 
 console.log('═'.repeat(80));
 console.log('🧹 TRADE CLEANER V8.0 - V4 SELECTOR COMPATIBLE');
@@ -239,24 +241,24 @@ if (takeProfits.length > 0) {
         const tpPrice = roundPrice(tp.price, tickSize);
         let sizePct = tp.size_pct || 100;
 
-        // Last TP gets remaining percentage
+        // ⚡ FIX: Last TP ALWAYS gets remaining % to ensure 100% total
         if (i === takeProfits.length - 1) {
-            sizePct = 100 - totalPct;
+            sizePct = 100 - totalPct;  // Remaining percentage
+            console.log(`  ${tp.label || `TP${i + 1}`}: ${formatNumber(tpPrice, 8)} @ ${sizePct}% (remaining to close 100%)`);
         } else {
             totalPct += sizePct;
+            console.log(`  ${tp.label || `TP${i + 1}`}: ${formatNumber(tpPrice, 8)} @ ${sizePct}%`);
         }
 
         formattedTakeProfits.push({
             price: formatNumber(tpPrice, 8),
             size_pct: sizePct
         });
-
-        console.log(`  ${tp.label || `TP${i + 1}`}: ${formatNumber(tpPrice, 8)} @ ${sizePct}%`);
     }
 
-    console.log(`[TakeProfits] Total allocation: 100%`);
+    console.log(`[TakeProfits] ✅ Total allocation: 100%`);
 } else {
-    console.log(`[TakeProfits] No multiple TPs - using single TP`);
+    console.log(`[TakeProfits] No multiple TPs - using single TP @ 100%`);
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════

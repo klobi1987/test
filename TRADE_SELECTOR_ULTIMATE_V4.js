@@ -55,8 +55,8 @@ const CONFIG = {
   max_positions_per_side: 5,   // Max 5 LONG + 5 SHORT
 
   // Diversification (if multiple A+ setups)
-  enable_diversification: true,
-  max_selected: 3,              // Select up to 3 best
+  enable_diversification: false,  // DISABLED: Focus on single best setup for small account
+  max_selected: 1,                // Select only the best
 
   // Score weights (must sum to 100)
   weights: {
