@@ -36,27 +36,38 @@ if (!input || input.length === 0) {
 
 const candidates = input.map(item => item.json);
 
-console.log(`\n⚡ TRADE SELECTOR ULTIMATE V4.0 - V5 COMPATIBLE`);
-console.log(`   Processing ${candidates.length} candidates`);
-console.log(`   Max 5 positions per direction (LONG/SHORT)\n`);
-
 //===============================================================================
 // 🔧 CONFIGURATION
 //===============================================================================
 
 const CONFIG = {
-  // Quality thresholds (aggressive for small account)
-  min_alpha: 70,          // Strong momentum
-  min_rr: 2.0,            // Minimum risk/reward
-  min_buffer: 2.0,        // Safe liquidation margin (lowered from 3%)
-  min_score: 65,          // A+ quality
+  // 🎯 CORE THRESHOLDS (AGGRESSIVE BUT SMART!)
+  min_alpha: 100,          // Raised from 70 - Only top momentum!
+  min_rr: 2.5,             // Raised from 2.0 - Better risk/reward!
+  min_buffer: 2.5,         // Raised from 2.0 - Safer from liquidation!
+  min_score: 70,           // Raised from 65 - Premium quality only!
+
+  // 🏆 QUALITY FILTERS (NEW!)
+  min_vp_quality_score: 55,    // VP score >= 55 (GOOD+ only)
+  allowed_vp_qualities: ["EXCELLENT", "GOLDEN", "GOOD"],  // No MODERATE/WEAK
+  allowed_convictions: ["EXTREME", "HIGH"],  // No MEDIUM/LOW
+
+  // ⚡ LEVERAGE SAFETY (NEW!)
+  min_leverage: 5,             // Avoid <5x (too low profit potential)
+  max_leverage_allowed: 15,    // Avoid >15x (too risky)
+  optimal_leverage_min: 6,     // Sweet spot start
+  optimal_leverage_max: 12,    // Sweet spot end
+
+  // 🛡️ LIQUIDATION SAFETY (NEW!)
+  min_liq_distance_pct: 9.0,   // Liq must be >9% from entry
+  min_leverage_efficiency: 80, // Min 80% of max safe leverage
 
   // Position limits
   max_positions_per_side: 5,   // Max 5 LONG + 5 SHORT
 
   // Diversification (if multiple A+ setups)
-  enable_diversification: false,  // DISABLED: Focus on single best setup for small account
-  max_selected: 1,                // Select only the best
+  enable_diversification: false,  // DISABLED: Focus on single best setup
+  max_selected: 1,                // Select only THE BEST
 
   // Score weights (must sum to 100)
   weights: {
@@ -78,8 +89,19 @@ const CONFIG = {
   }
 };
 
-console.log(`⚡ THRESHOLDS: Alpha ≥${CONFIG.min_alpha}, RR ≥${CONFIG.min_rr}:1, Buffer ≥${CONFIG.min_buffer}%, Score ≥${CONFIG.min_score}`);
-console.log(`🔢 MAX POSITIONS: ${CONFIG.max_positions_per_side} per side (LONG/SHORT)`);
+console.log(`\n⚡ TRADE SELECTOR ULTIMATE V4.1 - AGGRESSIVE BUT SMART!`);
+console.log(`   Processing ${candidates.length} candidates with STRICT filters\n`);
+console.log(`🎯 CORE THRESHOLDS:`);
+console.log(`   Alpha ≥${CONFIG.min_alpha} | RR ≥${CONFIG.min_rr}:1 | Buffer ≥${CONFIG.min_buffer}% | Score ≥${CONFIG.min_score}`);
+console.log(`\n🏆 QUALITY FILTERS:`);
+console.log(`   VP Quality: ${CONFIG.allowed_vp_qualities.join(', ')} (score ≥${CONFIG.min_vp_quality_score})`);
+console.log(`   Conviction: ${CONFIG.allowed_convictions.join(', ')}`);
+console.log(`\n⚡ LEVERAGE SAFETY:`);
+console.log(`   Range: ${CONFIG.min_leverage}x - ${CONFIG.max_leverage_allowed}x | Sweet Spot: ${CONFIG.optimal_leverage_min}-${CONFIG.optimal_leverage_max}x`);
+console.log(`   Efficiency: ≥${CONFIG.min_leverage_efficiency}% of max safe`);
+console.log(`\n🛡️ LIQUIDATION SAFETY:`);
+console.log(`   Liq Distance: ≥${CONFIG.min_liq_distance_pct}% from entry`);
+console.log(`\n🔢 POSITIONS: Max ${CONFIG.max_positions_per_side} per side (LONG/SHORT)`);
 
 //===============================================================================
 // 🔍 HELPER FUNCTIONS
@@ -134,22 +156,57 @@ function validateDataQuality(coin) {
 function validateThresholds(coin) {
   const errors = [];
 
-  // Alpha check
+  // 🎯 CORE THRESHOLDS
   const alpha = coin.alpha || coin.alphaScore || 0;
   if (alpha < CONFIG.min_alpha) {
     errors.push(`Alpha ${alpha.toFixed(1)} < ${CONFIG.min_alpha}`);
   }
 
-  // Risk/Reward check (use leveraged_rr or risk_reward_ratio)
   const rr = coin.leveraged_rr || coin.risk_reward_ratio || 0;
   if (rr < CONFIG.min_rr) {
     errors.push(`RR ${rr.toFixed(2)} < ${CONFIG.min_rr}`);
   }
 
-  // Buffer check
   const buffer = coin.liq_buffer_pct || 0;
   if (buffer < CONFIG.min_buffer) {
     errors.push(`Buffer ${buffer.toFixed(2)}% < ${CONFIG.min_buffer}%`);
+  }
+
+  // 🏆 VP QUALITY FILTERS
+  const vpQuality = coin.vp_setup_quality || "WEAK";
+  if (!CONFIG.allowed_vp_qualities.includes(vpQuality)) {
+    errors.push(`VP quality "${vpQuality}" not in allowed list (need GOOD+)`);
+  }
+
+  const vpScore = coin.vp_score || 0;
+  if (vpScore < CONFIG.min_vp_quality_score) {
+    errors.push(`VP score ${vpScore} < ${CONFIG.min_vp_quality_score}`);
+  }
+
+  // 🏆 CONVICTION FILTER
+  const conviction = coin.conviction || "LOW";
+  if (!CONFIG.allowed_convictions.includes(conviction)) {
+    errors.push(`Conviction "${conviction}" not allowed (need HIGH or EXTREME)`);
+  }
+
+  // ⚡ LEVERAGE SAFETY
+  const leverage = coin.leverage || 0;
+  if (leverage < CONFIG.min_leverage) {
+    errors.push(`Leverage ${leverage}x < ${CONFIG.min_leverage}x (too low)`);
+  }
+  if (leverage > CONFIG.max_leverage_allowed) {
+    errors.push(`Leverage ${leverage}x > ${CONFIG.max_leverage_allowed}x (too risky)`);
+  }
+
+  // 🛡️ LIQUIDATION SAFETY
+  const liqDistance = coin.liquidation_distance_pct || 0;
+  if (liqDistance < CONFIG.min_liq_distance_pct) {
+    errors.push(`Liq distance ${liqDistance.toFixed(2)}% < ${CONFIG.min_liq_distance_pct}% (too close)`);
+  }
+
+  const leverageEfficiency = coin.leverage_efficiency_pct || 0;
+  if (leverageEfficiency < CONFIG.min_leverage_efficiency) {
+    errors.push(`Leverage efficiency ${leverageEfficiency.toFixed(1)}% < ${CONFIG.min_leverage_efficiency}% (not optimized)`);
   }
 
   return {
