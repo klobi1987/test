@@ -1,0 +1,5013 @@
+[
+  {
+    "bybit_symbol": "XPLUSDT",
+    "symbol": "XPLUSDT",
+    "name": "Plasma",
+    "price": 0.3072846979942763,
+    "logo": "https://cdn.lunarcrush.com/plasma.png",
+    "network": "bnbchain",
+    "address": "0x405fbc9004d857903bfd6b3357792d71a50726b0",
+    "category_main": "layer-1",
+    "score": 55.96,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 1050",
+      "Galaxy ↑ by 25.7",
+      "Engagement eff. 252.4",
+      "Sentiment 82",
+      "24h 14.65%",
+      "Volatility 0.1032"
+    ],
+    "derived": {
+      "pct_change_1h": -4,
+      "pct_change_24h": 14.65,
+      "volatility": 0.1032,
+      "oi_ratio": 0.25,
+      "engagement_efficiency": 252.38,
+      "galaxy": 71.7,
+      "galaxy_prev": 46,
+      "galaxy_jump": 25.7,
+      "alt_rank": 9,
+      "alt_rank_prev": 1059,
+      "alt_rank_jump": 1050,
+      "sentiment": 82,
+      "volume24h": 883402423,
+      "turnover24h": 272015144.3765,
+      "openInterestValue": 67928775.63,
+      "fundingRate": 0.00005,
+      "market_cap": 553112456.39,
+      "market_cap_rank": 154,
+      "circulating_supply": 1800000000,
+      "max_supply": 0,
+      "social_dominance": 0.34004783992656085,
+      "market_dominance": 0.01603112360569629
+    },
+    "raw": {
+      "symbol": "XPL",
+      "bybit_symbol": "XPLUSDT",
+      "lastPrice": "0.3028",
+      "price24hPcnt": "0.146535",
+      "percent_change_1h": -3.99912879,
+      "percent_change_24h": 16.78645137,
+      "interactions_24h": 919923,
+      "social_volume_24h": 3645,
+      "galaxy_score": 71.7,
+      "galaxy_score_previous": 46,
+      "alt_rank": 9,
+      "alt_rank_previous": 1059,
+      "volatility": 0.1032,
+      "categories": "layer-1",
+      "topic": "xpl plasma",
+      "logo": "https://cdn.lunarcrush.com/plasma.png",
+      "blockchains": [
+        {
+          "network": "bnbchain",
+          "address": "0x405fbc9004d857903bfd6b3357792d71a50726b0",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.3519",
+      "lowPrice24h": "0.2575",
+      "indexPrice": "0.3029",
+      "markPrice": "0.3027",
+      "bid1Price": "0.3027",
+      "ask1Price": "0.3028",
+      "market_cap_rank": 154
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "XPL",
+      "quoteCoin": "USDT",
+      "minOrderQty": 1,
+      "maxOrderQty": 150000,
+      "qtyStep": 1,
+      "minNotionalValue": 5,
+      "tickSize": 0.0001,
+      "maxLeverage": 75,
+      "launchTime": "1755854834000",
+      "fundingIntervalMinutes": 240,
+      "tradable": true,
+      "bid_price": 0.3034,
+      "ask_price": 0.3035,
+      "mid_price": 0.30345,
+      "spread_pct": 0.032954358213870154,
+      "bid_vol5": 165121,
+      "ask_vol5": 161276,
+      "imbalance_5_levels": 0.011780132783083179,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.368Z",
+      "current": 0.00005,
+      "avg": 0.00005,
+      "avg_7": 0.00005,
+      "recent_history": [
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.3029
+      },
+      "ema": {
+        "ema20": 0.28975405,
+        "ema50": 0.29436768,
+        "ema200": 0.43064813
+      },
+      "rsi": 61.00012297,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 13.51351039,
+        "plusDI": 28.05471125,
+        "minusDI": 22.21884498
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.0235,
+      "atr_pct": 7.76,
+      "bollinger": {
+        "upper": 0.33817911,
+        "middle": 0.28716,
+        "lower": 0.23614089,
+        "bandwidth": 35.53357720094794
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.2423,
+          0.3367,
+          0.5827,
+          0.5887,
+          0.828
+        ],
+        "resistance_levels": [
+          1.6942,
+          1.0774,
+          0.74,
+          0.5606,
+          0.4088
+        ],
+        "support": 0.3367,
+        "resistance": 0.4088
+      },
+      "fibs": {
+        "swing_high": 0.4359,
+        "swing_low": 0.225,
+        "retracements": {
+          "0": 0.4359,
+          "236": 0.3861276,
+          "382": 0.3553362,
+          "500": 0.33045,
+          "618": 0.3055638,
+          "786": 0.2701326,
+          "1000": 0.225
+        },
+        "extensions": {
+          "1272": 0.7041648,
+          "1618": 0.7771362,
+          "2000": 0.8577
+        }
+      },
+      "volume_profile": {
+        "POC": 0.283768,
+        "value_area_high": 0.900832,
+        "value_area_low": 0.225,
+        "value_area_range_pct": 300.36977778,
+        "high_volume_nodes": [
+          {
+            "price": 0.225,
+            "volume": 807937539.8666667
+          },
+          {
+            "price": 0.254384,
+            "volume": 1392704583.8666666
+          },
+          {
+            "price": 0.283768,
+            "volume": 1466394815.1999998
+          },
+          {
+            "price": 0.313152,
+            "volume": 778970559.5333334
+          },
+          {
+            "price": 0.342536,
+            "volume": 1117376825.8666668
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.51884,
+            "volume": 172489655.36666664
+          },
+          {
+            "price": 0.548224,
+            "volume": 154361482.86666667
+          },
+          {
+            "price": 0.577608,
+            "volume": 93297436.1404762
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 6.316276,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.3034
+      },
+      "ema": {
+        "ema20": 0.31212434,
+        "ema50": 0.29599772,
+        "ema200": 0.29442098
+      },
+      "rsi": 54.76651176,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 54.49002894,
+        "plusDI": 23.42831298,
+        "minusDI": 25.28267752
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.01579286,
+      "atr_pct": 5.21,
+      "bollinger": {
+        "upper": 0.35125551,
+        "middle": 0.31624,
+        "lower": 0.28122449,
+        "bandwidth": 22.144893205799594
+      },
+      "market_structure": {
+        "structure": "UPTREND",
+        "support_levels": [
+          0.225,
+          0.2509,
+          0.2822,
+          0.3367,
+          0.3451
+        ],
+        "resistance_levels": [
+          0.4088,
+          0.3806,
+          0.3282,
+          0.3083
+        ],
+        "support": 0.2509,
+        "resistance": 0.3282
+      },
+      "fibs": {
+        "swing_high": 0.3519,
+        "swing_low": 0.225,
+        "retracements": {
+          "0": 0.3519,
+          "236": 0.3219516,
+          "382": 0.3034242,
+          "500": 0.28845,
+          "618": 0.2734758,
+          "786": 0.2521566,
+          "1000": 0.225
+        },
+        "extensions": {
+          "1272": 0.5133167999999999,
+          "1618": 0.5572242,
+          "2000": 0.6056999999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 0.254384,
+        "value_area_high": 0.842064,
+        "value_area_low": 0.225,
+        "value_area_range_pct": 274.25066667,
+        "high_volume_nodes": [
+          {
+            "price": 0.225,
+            "volume": 586685454.8571429
+          },
+          {
+            "price": 0.254384,
+            "volume": 1617777119.857143
+          },
+          {
+            "price": 0.283768,
+            "volume": 1350391713.357143
+          },
+          {
+            "price": 0.313152,
+            "volume": 838762153.8571429
+          },
+          {
+            "price": 0.342536,
+            "volume": 1098102393.857143
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.51884,
+            "volume": 127475056.02380954
+          },
+          {
+            "price": 0.548224,
+            "volume": 42797538.52380952
+          },
+          {
+            "price": 0.577608,
+            "volume": 42621504.19047619
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 16.1555702,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.3032
+      },
+      "ema": {
+        "ema20": 0.31987337,
+        "ema50": 0.32011574,
+        "ema200": 0.29622729
+      },
+      "rsi": 35.94673214,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 24.03661695,
+        "plusDI": 14.58797327,
+        "minusDI": 31.29175947
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00641429,
+      "atr_pct": 2.12,
+      "bollinger": {
+        "upper": 0.33551625,
+        "middle": 0.321175,
+        "lower": 0.30683375,
+        "bandwidth": 8.930490660074657
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.225,
+          0.2435,
+          0.249,
+          0.2509,
+          0.2513
+        ],
+        "resistance_levels": [
+          0.3519,
+          0.3282,
+          0.2915,
+          0.2878,
+          0.2673
+        ],
+        "support": 0.2509,
+        "resistance": 0.3519
+      },
+      "fibs": {
+        "swing_high": 0.3519,
+        "swing_low": 0.2518,
+        "retracements": {
+          "0": 0.3519,
+          "236": 0.3282764,
+          "382": 0.3136618,
+          "500": 0.30185,
+          "618": 0.2900382,
+          "786": 0.2732214,
+          "1000": 0.2518
+        },
+        "extensions": {
+          "1272": 0.47922719999999996,
+          "1618": 0.5138617999999999,
+          "2000": 0.5520999999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 0.258088,
+        "value_area_high": 0.312232,
+        "value_area_low": 0.252072,
+        "value_area_range_pct": 23.86619696,
+        "high_volume_nodes": [
+          {
+            "price": 0.252072,
+            "volume": 150925988.2214286
+          },
+          {
+            "price": 0.25508,
+            "volume": 209937573.8880953
+          },
+          {
+            "price": 0.258088,
+            "volume": 237569048.6380953
+          },
+          {
+            "price": 0.261096,
+            "volume": 212512531.80476195
+          },
+          {
+            "price": 0.264104,
+            "volume": 180493542.48809525
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.225,
+            "volume": 12633821.58333333
+          },
+          {
+            "price": 0.228008,
+            "volume": 17758492.08333333
+          },
+          {
+            "price": 0.231016,
+            "volume": 30442650.33333334
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 14.87862797,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 201.38400000000001,
+    "alphaScore": 201.38400000000001,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "FFUSDT",
+    "symbol": "FFUSDT",
+    "name": "Falcon Finance",
+    "price": 0.1266563891107283,
+    "logo": "https://cdn.lunarcrush.com/falcon-finance.png",
+    "network": "ethereum",
+    "address": "0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949",
+    "category_main": "bsc",
+    "score": 55.62,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 584",
+      "Galaxy ↑ by 23.0",
+      "Engagement eff. 113.2",
+      "OI/Turnover 0.74",
+      "Sentiment 88",
+      "24h 10.00%",
+      "Volatility 0.0494"
+    ],
+    "derived": {
+      "pct_change_1h": 1.64,
+      "pct_change_24h": 10,
+      "volatility": 0.0494,
+      "oi_ratio": 0.742,
+      "engagement_efficiency": 113.22,
+      "galaxy": 65,
+      "galaxy_prev": 42,
+      "galaxy_jump": 23,
+      "alt_rank": 130,
+      "alt_rank_prev": 714,
+      "alt_rank_jump": 584,
+      "sentiment": 88,
+      "volume24h": 57771353,
+      "turnover24h": 6970457.4024,
+      "openInterestValue": 5169194.93,
+      "fundingRate": -0.00006543,
+      "market_cap": 296375950.52,
+      "market_cap_rank": 233,
+      "circulating_supply": 2340000000,
+      "max_supply": 10000000000,
+      "social_dominance": 0.04907137552849685,
+      "market_dominance": 0.008559442548038858
+    },
+    "raw": {
+      "symbol": "FF",
+      "bybit_symbol": "FFUSDT",
+      "lastPrice": "0.1265",
+      "price24hPcnt": "0.1",
+      "percent_change_1h": 1.643207066482,
+      "percent_change_24h": 10.131993303217,
+      "interactions_24h": 59552,
+      "social_volume_24h": 526,
+      "galaxy_score": 65,
+      "galaxy_score_previous": 42,
+      "alt_rank": 130,
+      "alt_rank_previous": 714,
+      "volatility": 0.0494,
+      "categories": "bsc",
+      "topic": "ff falcon finance",
+      "logo": "https://cdn.lunarcrush.com/falcon-finance.png",
+      "blockchains": [
+        {
+          "network": "ethereum",
+          "address": "0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949",
+          "decimals": null
+        },
+        {
+          "network": "bnbchain",
+          "address": "0xac23b90a79504865d52b49b327328411a23d4db2",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.1295",
+      "lowPrice24h": "0.1100",
+      "indexPrice": "0.1267",
+      "markPrice": "0.1265",
+      "bid1Price": "0.1264",
+      "ask1Price": "0.1265",
+      "market_cap_rank": 233
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "FF",
+      "quoteCoin": "USDT",
+      "minOrderQty": 1,
+      "maxOrderQty": 150000,
+      "qtyStep": 1,
+      "minNotionalValue": 5,
+      "tickSize": 0.0001,
+      "maxLeverage": 50,
+      "launchTime": "1759155773000",
+      "fundingIntervalMinutes": 60,
+      "tradable": true,
+      "bid_price": 0.1264,
+      "ask_price": 0.1265,
+      "mid_price": 0.12645,
+      "spread_pct": 0.07908264136021272,
+      "bid_vol5": 107747,
+      "ask_vol5": 66790,
+      "imbalance_5_levels": 0.23466084555137307,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.567Z",
+      "current": 0.0000125,
+      "avg": -0.000110384,
+      "avg_7": -0.000110384,
+      "recent_history": [
+        -0.00030872,
+        -0.000067,
+        -0.00016431,
+        -0.00002439,
+        0.0000125
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.1264
+      },
+      "ema": {
+        "ema20": 0.11896164,
+        "ema50": 0.12317648,
+        "ema200": 0.15790827
+      },
+      "rsi": 54.25036381,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 22.84854758,
+        "plusDI": 20.02487562,
+        "minusDI": 15.92039801
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00574286,
+      "atr_pct": 4.54,
+      "bollinger": {
+        "upper": 0.12705961,
+        "middle": 0.117745,
+        "lower": 0.10843039,
+        "bandwidth": 15.821660042742353
+      },
+      "market_structure": {
+        "structure": "UPTREND",
+        "support_levels": [
+          0.0452,
+          0.1172
+        ],
+        "resistance_levels": [
+          0.2056,
+          0.1859
+        ],
+        "support": 0.1172,
+        "resistance": 0.2056
+      },
+      "fibs": {
+        "swing_high": 0.2056,
+        "swing_low": 0.1076,
+        "retracements": {
+          "0": 0.2056,
+          "236": 0.182472,
+          "382": 0.168164,
+          "500": 0.15660000000000002,
+          "618": 0.145036,
+          "786": 0.12857200000000002,
+          "1000": 0.1076
+        },
+        "extensions": {
+          "1272": 0.330256,
+          "1618": 0.36416400000000004,
+          "2000": 0.4016
+        }
+      },
+      "volume_profile": {
+        "POC": 0.11594,
+        "value_area_high": 0.18668,
+        "value_area_low": 0.108866,
+        "value_area_range_pct": 71.47686146,
+        "high_volume_nodes": [
+          {
+            "price": 0.108866,
+            "volume": 424202836.8636364
+          },
+          {
+            "price": 0.11594,
+            "volume": 696227268.030303
+          },
+          {
+            "price": 0.123014,
+            "volume": 563353330.4999999
+          },
+          {
+            "price": 0.130088,
+            "volume": 544543292.5999999
+          },
+          {
+            "price": 0.137162,
+            "volume": 604892934.0999999
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0452,
+            "volume": 26789459.36363636
+          },
+          {
+            "price": 0.052274,
+            "volume": 26789459.36363636
+          },
+          {
+            "price": 0.059348,
+            "volume": 26789459.36363636
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 8.27531646,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.1263
+      },
+      "ema": {
+        "ema20": 0.12255415,
+        "ema50": 0.1195565,
+        "ema200": 0.1231427
+      },
+      "rsi": 59.77153064,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 38.88929173,
+        "plusDI": 20.42440318,
+        "minusDI": 19.62864721
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00269286,
+      "atr_pct": 2.13,
+      "bollinger": {
+        "upper": 0.13130346,
+        "middle": 0.12327,
+        "lower": 0.11523654,
+        "bandwidth": 13.033917494098073
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.1076,
+          0.1086,
+          0.1174,
+          0.1343,
+          0.1573
+        ],
+        "resistance_levels": [
+          0.1575,
+          0.1351,
+          0.1246,
+          0.1227
+        ],
+        "support": 0.1076,
+        "resistance": 0.1227
+      },
+      "fibs": {
+        "swing_high": 0.1295,
+        "swing_low": 0.1076,
+        "retracements": {
+          "0": 0.1295,
+          "236": 0.1243316,
+          "382": 0.1211342,
+          "500": 0.11855,
+          "618": 0.11596580000000001,
+          "786": 0.1122866,
+          "1000": 0.1076
+        },
+        "extensions": {
+          "1272": 0.15735680000000002,
+          "1618": 0.1649342,
+          "2000": 0.1733
+        }
+      },
+      "volume_profile": {
+        "POC": 0.179606,
+        "value_area_high": 0.18668,
+        "value_area_low": 0.108866,
+        "value_area_range_pct": 71.47686146,
+        "high_volume_nodes": [
+          {
+            "price": 0.108866,
+            "volume": 476481828.2
+          },
+          {
+            "price": 0.11594,
+            "volume": 652828075.8333334
+          },
+          {
+            "price": 0.123014,
+            "volume": 613011142.8333333
+          },
+          {
+            "price": 0.130088,
+            "volume": 470425029.5
+          },
+          {
+            "price": 0.137162,
+            "volume": 652825446.1666667
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0452,
+            "volume": 13872894.2
+          },
+          {
+            "price": 0.052274,
+            "volume": 13872894.2
+          },
+          {
+            "price": 0.059348,
+            "volume": 13872894.2
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 42.20585907,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.1263
+      },
+      "ema": {
+        "ema20": 0.12424442,
+        "ema50": 0.12370962,
+        "ema200": 0.11948421
+      },
+      "rsi": 57.78990889,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 37.13363749,
+        "plusDI": 24.46808511,
+        "minusDI": 5.31914894
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00134286,
+      "atr_pct": 1.06,
+      "bollinger": {
+        "upper": 0.12602409,
+        "middle": 0.123545,
+        "lower": 0.12106591,
+        "bandwidth": 4.013262496942322
+      },
+      "market_structure": {
+        "structure": "UPTREND",
+        "support_levels": [
+          0.1076,
+          0.1087,
+          0.11,
+          0.1109,
+          0.1127
+        ],
+        "resistance_levels": [
+          0.1295,
+          0.1227,
+          0.121,
+          0.1168
+        ],
+        "support": 0.11,
+        "resistance": 0.1295
+      },
+      "fibs": {
+        "swing_high": 0.1295,
+        "swing_low": 0.11,
+        "retracements": {
+          "0": 0.1295,
+          "236": 0.12489800000000001,
+          "382": 0.122051,
+          "500": 0.11975,
+          "618": 0.117449,
+          "786": 0.114173,
+          "1000": 0.11
+        },
+        "extensions": {
+          "1272": 0.154304,
+          "1618": 0.161051,
+          "2000": 0.1685
+        }
+      },
+      "volume_profile": {
+        "POC": 0.114586,
+        "value_area_high": 0.126562,
+        "value_area_low": 0.110594,
+        "value_area_range_pct": 14.4383963,
+        "high_volume_nodes": [
+          {
+            "price": 0.111592,
+            "volume": 32662506.14761905
+          },
+          {
+            "price": 0.11259,
+            "volume": 35601582.98095237
+          },
+          {
+            "price": 0.113588,
+            "volume": 47770629.64761904
+          },
+          {
+            "price": 0.114586,
+            "volume": 57408028.53095239
+          },
+          {
+            "price": 0.115584,
+            "volume": 48558944.64761905
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.1076,
+            "volume": 789433.33333333
+          },
+          {
+            "price": 0.108598,
+            "volume": 5589482.91666667
+          },
+          {
+            "price": 0.131552,
+            "volume": 9029274.71666667
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 9.27474268,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 196.248,
+    "alphaScore": 196.248,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "STOUSDT",
+    "symbol": "STOUSDT",
+    "name": "StakeStone",
+    "price": 0.16864296989993843,
+    "logo": "https://cdn.lunarcrush.com/stakestone.png",
+    "network": "ethereum",
+    "address": "0x1d88713b483a8e45cff0e5cd7c2e15e5fab4534d",
+    "category_main": "defi",
+    "score": 55.63,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 648",
+      "Galaxy ↑ by 23.2",
+      "Engagement eff. 51.0",
+      "OI/Turnover 3.46",
+      "Sentiment 91",
+      "24h 2.92%",
+      "Volatility 0.0180"
+    ],
+    "derived": {
+      "pct_change_1h": 0.43,
+      "pct_change_24h": 2.92,
+      "volatility": 0.018,
+      "oi_ratio": 3.464,
+      "engagement_efficiency": 50.99,
+      "galaxy": 62.2,
+      "galaxy_prev": 39,
+      "galaxy_jump": 23.2,
+      "alt_rank": 590,
+      "alt_rank_prev": 1238,
+      "alt_rank_jump": 648,
+      "sentiment": 91,
+      "volume24h": 3526917,
+      "turnover24h": 587951.3901,
+      "openInterestValue": 2036778.96,
+      "fundingRate": 0.00005,
+      "market_cap": 38000882.49,
+      "market_cap_rank": 755,
+      "circulating_supply": 225333333,
+      "max_supply": 1000000000,
+      "social_dominance": 0.06390473809319457,
+      "market_dominance": 0.0011013978030774718
+    },
+    "raw": {
+      "symbol": "STO",
+      "bybit_symbol": "STOUSDT",
+      "lastPrice": "0.16922",
+      "price24hPcnt": "0.029193",
+      "percent_change_1h": 0.42564226,
+      "percent_change_24h": 2.47536035,
+      "interactions_24h": 34925,
+      "social_volume_24h": 685,
+      "galaxy_score": 62.2,
+      "galaxy_score_previous": 39,
+      "alt_rank": 590,
+      "alt_rank_previous": 1238,
+      "volatility": 0.018,
+      "categories": "defi",
+      "topic": "sto stakestone",
+      "logo": "https://cdn.lunarcrush.com/stakestone.png",
+      "blockchains": [
+        {
+          "network": "ethereum",
+          "address": "0x1d88713b483a8e45cff0e5cd7c2e15e5fab4534d",
+          "decimals": null
+        },
+        {
+          "network": "bnbchain",
+          "address": "0xdaf1695c41327b61b9b9965ac6a5843a3198cf07",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.17314",
+      "lowPrice24h": "0.16151",
+      "indexPrice": "0.16905",
+      "markPrice": "0.16922",
+      "bid1Price": "0.16901",
+      "ask1Price": "0.16918",
+      "market_cap_rank": 755
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "STO",
+      "quoteCoin": "USDT",
+      "minOrderQty": 1,
+      "maxOrderQty": 1150000,
+      "qtyStep": 1,
+      "minNotionalValue": 5,
+      "tickSize": 0.00001,
+      "maxLeverage": 20,
+      "launchTime": "1744795735000",
+      "fundingIntervalMinutes": 240,
+      "tradable": true,
+      "bid_price": 0.16899,
+      "ask_price": 0.16907,
+      "mid_price": 0.16903,
+      "spread_pct": 0.04732887653079142,
+      "bid_vol5": 8223,
+      "ask_vol5": 9539,
+      "imbalance_5_levels": -0.07409075554554667,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.051Z",
+      "current": 0.00005,
+      "avg": 0.00005,
+      "avg_7": 0.00005,
+      "recent_history": [
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.16922
+      },
+      "ema": {
+        "ema20": 0.16832234,
+        "ema50": 0.16857601,
+        "ema200": 0.15834088
+      },
+      "rsi": 53.92620066,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 21.14522735,
+        "plusDI": 22.67946116,
+        "minusDI": 26.97914744
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00387071,
+      "atr_pct": 2.29,
+      "bollinger": {
+        "upper": 0.1756884,
+        "middle": 0.168676,
+        "lower": 0.1616636,
+        "bandwidth": 8.314637214152178
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.07815,
+          0.11055,
+          0.14454,
+          0.15413,
+          0.16431
+        ],
+        "resistance_levels": [
+          0.22939,
+          0.18834,
+          0.18489,
+          0.1783,
+          0.10785
+        ],
+        "support": 0.15413,
+        "resistance": 0.1783
+      },
+      "fibs": {
+        "swing_high": 0.18834,
+        "swing_low": 0.15413,
+        "retracements": {
+          "0": 0.18834,
+          "236": 0.18026644,
+          "382": 0.17527178,
+          "500": 0.171235,
+          "618": 0.16719822,
+          "786": 0.16145094,
+          "1000": 0.15413
+        },
+        "extensions": {
+          "1272": 0.23185512000000003,
+          "1618": 0.24369178000000002,
+          "2000": 0.25676000000000004
+        }
+      },
+      "volume_profile": {
+        "POC": 0.1708434,
+        "value_area_high": 0.2078202,
+        "value_area_low": 0.1153782,
+        "value_area_range_pct": 80.12085472,
+        "high_volume_nodes": [
+          {
+            "price": 0.0845642,
+            "volume": 78181133.91666669
+          },
+          {
+            "price": 0.0876456,
+            "volume": 80942458.08333333
+          },
+          {
+            "price": 0.090727,
+            "volume": 72250859.15
+          },
+          {
+            "price": 0.0938084,
+            "volume": 69120796.81666666
+          },
+          {
+            "price": 0.1646806,
+            "volume": 77211128.49215296
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.07532,
+            "volume": 10990635.33333333
+          },
+          {
+            "price": 0.0784014,
+            "volume": 22445022.33333334
+          },
+          {
+            "price": 0.1092154,
+            "volume": 20309773.84444445
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 0.95934287,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.16922
+      },
+      "ema": {
+        "ema20": 0.16871587,
+        "ema50": 0.16809076,
+        "ema200": 0.16861254
+      },
+      "rsi": 49.49940399,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 50.40731407,
+        "plusDI": 16.34254521,
+        "minusDI": 18.38962811
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00209357,
+      "atr_pct": 1.24,
+      "bollinger": {
+        "upper": 0.17464072,
+        "middle": 0.168644,
+        "lower": 0.16264728,
+        "bandwidth": 7.111687462206387
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.15417,
+          0.15418,
+          0.15687,
+          0.16139,
+          0.16439
+        ],
+        "resistance_levels": [
+          0.18389,
+          0.1783,
+          0.17519,
+          0.17492,
+          0.16826
+        ],
+        "support": 0.16139,
+        "resistance": 0.17519
+      },
+      "fibs": {
+        "swing_high": 0.17519,
+        "swing_low": 0.15687,
+        "retracements": {
+          "0": 0.17519,
+          "236": 0.17086648000000002,
+          "382": 0.16819176000000002,
+          "500": 0.16603,
+          "618": 0.16386824,
+          "786": 0.16079048,
+          "1000": 0.15687
+        },
+        "extensions": {
+          "1272": 0.19849304,
+          "1618": 0.20483176000000003,
+          "2000": 0.21183000000000002
+        }
+      },
+      "volume_profile": {
+        "POC": 0.168894,
+        "value_area_high": 0.1870428,
+        "value_area_low": 0.123522,
+        "value_area_range_pct": 51.42468548,
+        "high_volume_nodes": [
+          {
+            "price": 0.1265468,
+            "volume": 56111837.61365579
+          },
+          {
+            "price": 0.1295716,
+            "volume": 62936487.61365579
+          },
+          {
+            "price": 0.1325964,
+            "volume": 75664079.58865581
+          },
+          {
+            "price": 0.1356212,
+            "volume": 66427140.13865579
+          },
+          {
+            "price": 0.138646,
+            "volume": 56491026.7886558
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.07815,
+            "volume": 3120332.5
+          },
+          {
+            "price": 0.0811748,
+            "volume": 5761085
+          },
+          {
+            "price": 0.0841996,
+            "volume": 11362868
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": true,
+        "poc_distance_pct": 0.19264862,
+        "signal": "ENTRY_AT_POC"
+      },
+      "enhanced_signals": {
+        "vp_signal": "ENTRY_AT_POC",
+        "entry_quality": "EXCELLENT (@ POC)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+10%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.16922
+      },
+      "ema": {
+        "ema20": 0.16898751,
+        "ema50": 0.16916717,
+        "ema200": 0.16802815
+      },
+      "rsi": 49.34415987,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 41.14668783,
+        "plusDI": 13.76712329,
+        "minusDI": 33.28767123
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00104286,
+      "atr_pct": 0.62,
+      "bollinger": {
+        "upper": 0.17195069,
+        "middle": 0.1691515,
+        "lower": 0.16635231,
+        "bandwidth": 3.3096810382455994
+      },
+      "market_structure": {
+        "structure": "UPTREND",
+        "support_levels": [
+          0.16139,
+          0.16151,
+          0.17
+        ],
+        "resistance_levels": [
+          0.17519,
+          0.17512,
+          0.17314,
+          0.17295,
+          0.1678
+        ],
+        "support": 0.16151,
+        "resistance": 0.17314
+      },
+      "fibs": {
+        "swing_high": 0.17314,
+        "swing_low": 0.16151,
+        "retracements": {
+          "0": 0.17314,
+          "236": 0.17039532,
+          "382": 0.16869733999999997,
+          "500": 0.167325,
+          "618": 0.16595265999999997,
+          "786": 0.16399882,
+          "1000": 0.16151
+        },
+        "extensions": {
+          "1272": 0.18793336,
+          "1618": 0.19195733999999998,
+          "2000": 0.1964
+        }
+      },
+      "volume_profile": {
+        "POC": 0.1700958,
+        "value_area_high": 0.1729914,
+        "value_area_low": 0.1609264,
+        "value_area_range_pct": 7.49721612,
+        "high_volume_nodes": [
+          {
+            "price": 0.1676828,
+            "volume": 1691491.41418122
+          },
+          {
+            "price": 0.1681654,
+            "volume": 1927689.88560979
+          },
+          {
+            "price": 0.168648,
+            "volume": 1966821.31894313
+          },
+          {
+            "price": 0.1691306,
+            "volume": 1773360.84751455
+          },
+          {
+            "price": 0.1696132,
+            "volume": 2698401.07630243
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.15417,
+            "volume": 79153.76666667
+          },
+          {
+            "price": 0.1546526,
+            "volume": 189797.52171717
+          },
+          {
+            "price": 0.1551352,
+            "volume": 223547.52171717
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 0.51755112,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 194.252,
+    "alphaScore": 194.252,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 66,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "YBUSDT",
+    "symbol": "YBUSDT",
+    "name": "YieldBasis",
+    "price": 0.5539836298442364,
+    "logo": "https://cdn.lunarcrush.com/yieldbasis.png",
+    "network": "ethereum",
+    "address": "0x01791f726b4103694969820be083196cc7c045ff",
+    "category_main": "defi",
+    "score": 56.19,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 944",
+      "Galaxy ↑ by 34.3",
+      "Engagement eff. 105.2",
+      "OI/Turnover 0.66",
+      "Sentiment 94",
+      "24h 8.12%",
+      "Volatility 0.0425"
+    ],
+    "derived": {
+      "pct_change_1h": 0.71,
+      "pct_change_24h": 8.12,
+      "volatility": 0.0425,
+      "oi_ratio": 0.66,
+      "engagement_efficiency": 105.17,
+      "galaxy": 71.3,
+      "galaxy_prev": 37,
+      "galaxy_jump": 34.3,
+      "alt_rank": 214,
+      "alt_rank_prev": 1158,
+      "alt_rank_jump": 944,
+      "sentiment": 94,
+      "volume24h": 10541797.1,
+      "turnover24h": 5564315.3859,
+      "openInterestValue": 3669972.49,
+      "fundingRate": 0.00005,
+      "market_cap": 48704394.31,
+      "market_cap_rank": 651,
+      "circulating_supply": 87916667,
+      "max_supply": 1000000000,
+      "social_dominance": 0.055508495132044915,
+      "market_dominance": 0.001409096060568173
+    },
+    "raw": {
+      "symbol": "YB",
+      "bybit_symbol": "YBUSDT",
+      "lastPrice": "0.5541",
+      "price24hPcnt": "0.08117",
+      "percent_change_1h": 0.710153277843,
+      "percent_change_24h": 8.027289408019,
+      "interactions_24h": 62576,
+      "social_volume_24h": 595,
+      "galaxy_score": 71.3,
+      "galaxy_score_previous": 37,
+      "alt_rank": 214,
+      "alt_rank_previous": 1158,
+      "volatility": 0.0425,
+      "categories": "defi",
+      "topic": "yb yieldbasis",
+      "logo": "https://cdn.lunarcrush.com/yieldbasis.png",
+      "blockchains": [
+        {
+          "network": "ethereum",
+          "address": "0x01791f726b4103694969820be083196cc7c045ff",
+          "decimals": null
+        },
+        {
+          "network": "bnbchain",
+          "address": "0xfb93ee8152dd0a0e6f4b49c66c06d800cf1db72d",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.5760",
+      "lowPrice24h": "0.4929",
+      "indexPrice": "0.5547",
+      "markPrice": "0.5544",
+      "bid1Price": "0.5539",
+      "ask1Price": "0.5540",
+      "market_cap_rank": 651
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "YB",
+      "quoteCoin": "USDT",
+      "minOrderQty": 0.1,
+      "maxOrderQty": 12500,
+      "qtyStep": 0.1,
+      "minNotionalValue": 5,
+      "tickSize": 0.0001,
+      "maxLeverage": 25,
+      "launchTime": "1760168936000",
+      "fundingIntervalMinutes": 240,
+      "tradable": true,
+      "bid_price": 0.5539,
+      "ask_price": 0.554,
+      "mid_price": 0.5539499999999999,
+      "spread_pct": 0.018052170773553575,
+      "bid_vol5": 4775.2,
+      "ask_vol5": 4365.8,
+      "imbalance_5_levels": 0.04478722240455089,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:14.526Z",
+      "current": 0.00005,
+      "avg": 0.00005,
+      "avg_7": 0.00005,
+      "recent_history": [
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": false,
+      "valid_data": false,
+      "prices": {
+        "close": 0.5544
+      },
+      "ema": {
+        "ema20": 0.5317965,
+        "ema50": 0.54508596,
+        "ema200": null
+      },
+      "rsi": 53.14631774,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 15.34151407,
+        "plusDI": 24.5484222,
+        "minusDI": 20.23939064
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.03282143,
+      "atr_pct": 5.92,
+      "bollinger": {
+        "upper": 0.58686735,
+        "middle": 0.530485,
+        "lower": 0.47410265,
+        "bandwidth": 21.25690544116102
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.3556
+        ],
+        "resistance_levels": [
+          0.691
+        ],
+        "support": 0.3556,
+        "resistance": 0.691
+      },
+      "fibs": {
+        "swing_high": 0.691,
+        "swing_low": 0.3556,
+        "retracements": {
+          "0": 0.691,
+          "236": 0.6118456,
+          "382": 0.5628772,
+          "500": 0.5233,
+          "618": 0.4837228,
+          "786": 0.4273756,
+          "1000": 0.3556
+        },
+        "extensions": {
+          "1272": 1.1176287999999999,
+          "1618": 1.2336771999999998,
+          "2000": 1.3617999999999997
+        }
+      },
+      "volume_profile": {
+        "POC": 0.471952,
+        "value_area_high": 0.617392,
+        "value_area_low": 0.442864,
+        "value_area_range_pct": 39.40893818,
+        "high_volume_nodes": [
+          {
+            "price": 0.384688,
+            "volume": 41596813.07333333
+          },
+          {
+            "price": 0.413776,
+            "volume": 53990633.02333333
+          },
+          {
+            "price": 0.442864,
+            "volume": 106485129.01499999
+          },
+          {
+            "price": 0.471952,
+            "volume": 118928474.68166664
+          },
+          {
+            "price": 0.50104,
+            "volume": 115136074.06833331
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.762832,
+            "volume": 5397353.72179487
+          },
+          {
+            "price": 0.79192,
+            "volume": 1353460.83846154
+          },
+          {
+            "price": 0.821008,
+            "volume": 1353460.83846154
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 14.87157287,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.5544
+      },
+      "ema": {
+        "ema20": 0.53431331,
+        "ema50": 0.52790545,
+        "ema200": 0.54537913
+      },
+      "rsi": 58.69355712,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 53.34559962,
+        "plusDI": 23.89721627,
+        "minusDI": 9.5503212
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.01667857,
+      "atr_pct": 3.01,
+      "bollinger": {
+        "upper": 0.56363302,
+        "middle": 0.53176,
+        "lower": 0.49988698,
+        "bandwidth": 11.987747508631456
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.4514,
+          0.4612,
+          0.4821,
+          0.4927,
+          0.5218
+        ],
+        "resistance_levels": [
+          0.691,
+          0.6422,
+          0.6229,
+          0.6123,
+          0.5919
+        ],
+        "support": 0.4612,
+        "resistance": 0.5919
+      },
+      "fibs": {
+        "swing_high": 0.6353,
+        "swing_low": 0.4612,
+        "retracements": {
+          "0": 0.6353,
+          "236": 0.5942124,
+          "382": 0.5687938,
+          "500": 0.54825,
+          "618": 0.5277062,
+          "786": 0.4984574,
+          "1000": 0.4612
+        },
+        "extensions": {
+          "1272": 0.8567551999999999,
+          "1618": 0.9169938,
+          "2000": 0.9834999999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 0.559216,
+        "value_area_high": 0.617392,
+        "value_area_low": 0.442864,
+        "value_area_range_pct": 39.40893818,
+        "high_volume_nodes": [
+          {
+            "price": 0.384688,
+            "volume": 44038752.61666667
+          },
+          {
+            "price": 0.413776,
+            "volume": 56296030.86666666
+          },
+          {
+            "price": 0.442864,
+            "volume": 87684366.43333332
+          },
+          {
+            "price": 0.471952,
+            "volume": 127208922.93333328
+          },
+          {
+            "price": 0.50104,
+            "volume": 114568301.63333336
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.762832,
+            "volume": 4665754.2452381
+          },
+          {
+            "price": 0.79192,
+            "volume": 2677039.2547619
+          },
+          {
+            "price": 0.821008,
+            "volume": 2677039.2547619
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 0.86868687,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.5532
+      },
+      "ema": {
+        "ema20": 0.54538056,
+        "ema50": 0.53941191,
+        "ema200": 0.52749786
+      },
+      "rsi": 50.63666854,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 23.79384451,
+        "plusDI": 27.61647535,
+        "minusDI": 23.22754895
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.01057857,
+      "atr_pct": 1.91,
+      "bollinger": {
+        "upper": 0.56607557,
+        "middle": 0.547665,
+        "lower": 0.52925443,
+        "bandwidth": 6.723296297324456
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.4612,
+          0.4927,
+          0.4929,
+          0.4954,
+          0.5175
+        ],
+        "resistance_levels": [
+          0.6422,
+          0.5919,
+          0.5826,
+          0.5781,
+          0.5489
+        ],
+        "support": 0.4929,
+        "resistance": 0.5489
+      },
+      "fibs": {
+        "swing_high": 0.576,
+        "swing_low": 0.4793,
+        "retracements": {
+          "0": 0.576,
+          "236": 0.5531788,
+          "382": 0.5390606,
+          "500": 0.52765,
+          "618": 0.5162394,
+          "786": 0.4999938,
+          "1000": 0.4793
+        },
+        "extensions": {
+          "1272": 0.6990023999999999,
+          "1618": 0.7324605999999999,
+          "2000": 0.7693999999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 0.562312,
+        "value_area_high": 0.631252,
+        "value_area_low": 0.53014,
+        "value_area_range_pct": 19.07269778,
+        "high_volume_nodes": [
+          {
+            "price": 0.548524,
+            "volume": 9885658.53244811
+          },
+          {
+            "price": 0.55312,
+            "volume": 12372792.62923383
+          },
+          {
+            "price": 0.557716,
+            "volume": 13548608.04840049
+          },
+          {
+            "price": 0.562312,
+            "volume": 13719857.07173382
+          },
+          {
+            "price": 0.566908,
+            "volume": 12113978.84673382
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.4612,
+            "volume": 161368.28333333
+          },
+          {
+            "price": 0.465796,
+            "volume": 439946.15
+          },
+          {
+            "price": 0.470392,
+            "volume": 690689.31666667
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 1.64714389,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 191.476,
+    "alphaScore": 191.476,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "HOLOUSDT",
+    "symbol": "HOLOUSDT",
+    "name": "Holoworld AI",
+    "price": 0.11434015803040339,
+    "logo": "https://cdn.lunarcrush.com/holoworld-ai.png",
+    "category_main": "solana-ecosystem",
+    "score": 56.13,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 240",
+      "Galaxy ↑ by 17.6",
+      "Engagement eff. 59.2",
+      "OI/Turnover 0.87",
+      "Sentiment 89",
+      "24h 6.23%",
+      "Volatility 0.0461"
+    ],
+    "derived": {
+      "pct_change_1h": -0.3,
+      "pct_change_24h": 6.23,
+      "volatility": 0.0461,
+      "oi_ratio": 0.869,
+      "engagement_efficiency": 59.18,
+      "galaxy": 75.6,
+      "galaxy_prev": 58,
+      "galaxy_jump": 17.6,
+      "alt_rank": 116,
+      "alt_rank_prev": 356,
+      "alt_rank_jump": 240,
+      "sentiment": 89,
+      "volume24h": 17019316,
+      "turnover24h": 1906800.7478,
+      "openInterestValue": 1656184.56,
+      "fundingRate": 0.00005,
+      "market_cap": 39719052.58,
+      "market_cap_rank": 735,
+      "circulating_supply": 347376226,
+      "max_supply": 2048000000,
+      "social_dominance": 0.10924445008340267,
+      "market_dominance": 0.0011483438553422727
+    },
+    "raw": {
+      "symbol": "HOLO",
+      "bybit_symbol": "HOLOUSDT",
+      "lastPrice": "0.1143",
+      "price24hPcnt": "0.062267",
+      "percent_change_1h": -0.304127239793,
+      "percent_change_24h": 6.412955096288,
+      "interactions_24h": 69300,
+      "social_volume_24h": 1171,
+      "galaxy_score": 75.6,
+      "galaxy_score_previous": 58,
+      "alt_rank": 116,
+      "alt_rank_previous": 356,
+      "volatility": 0.0461,
+      "categories": "solana-ecosystem,ai",
+      "topic": "holo holoworld ai",
+      "logo": "https://cdn.lunarcrush.com/holoworld-ai.png",
+      "highPrice24h": "0.1190",
+      "lowPrice24h": "0.1011",
+      "indexPrice": "0.1146",
+      "markPrice": "0.1145",
+      "bid1Price": "0.1144",
+      "ask1Price": "0.1145",
+      "market_cap_rank": 735
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "HOLO",
+      "quoteCoin": "USDT",
+      "minOrderQty": 1,
+      "maxOrderQty": 178500,
+      "qtyStep": 1,
+      "minNotionalValue": 5,
+      "tickSize": 0.0001,
+      "maxLeverage": 50,
+      "launchTime": "1757592340000",
+      "fundingIntervalMinutes": 240,
+      "tradable": true,
+      "bid_price": 0.1147,
+      "ask_price": 0.1148,
+      "mid_price": 0.11474999999999999,
+      "spread_pct": 0.08714596949891318,
+      "bid_vol5": 123049,
+      "ask_vol5": 89443,
+      "imbalance_5_levels": 0.15815183630442559,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.497Z",
+      "current": 0.00005,
+      "avg": 0.00005,
+      "avg_7": 0.00005,
+      "recent_history": [
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.1143
+      },
+      "ema": {
+        "ema20": 0.10951508,
+        "ema50": 0.11506793,
+        "ema200": 0.15877436
+      },
+      "rsi": 57.45092109,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 17.44052276,
+        "plusDI": 19.13580247,
+        "minusDI": 18.67283951
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00462857,
+      "atr_pct": 4.05,
+      "bollinger": {
+        "upper": 0.11539441,
+        "middle": 0.107425,
+        "lower": 0.09945559,
+        "bandwidth": 14.837161306518542
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.0429,
+          0.1262,
+          0.1902
+        ],
+        "resistance_levels": [
+          0.258,
+          0.1783
+        ],
+        "support": 0.1262,
+        "resistance": 0.1783
+      },
+      "fibs": {
+        "swing_high": 0.1783,
+        "swing_low": 0.0949,
+        "retracements": {
+          "0": 0.1783,
+          "236": 0.1586176,
+          "382": 0.1464412,
+          "500": 0.1366,
+          "618": 0.1267588,
+          "786": 0.11274759999999999,
+          "1000": 0.0949
+        },
+        "extensions": {
+          "1272": 0.2843848,
+          "1618": 0.3132412,
+          "2000": 0.34509999999999996
+        }
+      },
+      "volume_profile": {
+        "POC": 0.131044,
+        "value_area_high": 0.37344,
+        "value_area_low": 0.0429,
+        "value_area_range_pct": 770.48951049,
+        "high_volume_nodes": [
+          {
+            "price": 0.120026,
+            "volume": 109699477.46153846
+          },
+          {
+            "price": 0.131044,
+            "volume": 273881138.46153843
+          },
+          {
+            "price": 0.142062,
+            "volume": 184060013.0448718
+          },
+          {
+            "price": 0.197152,
+            "volume": 137347817.1666667
+          },
+          {
+            "price": 0.20817,
+            "volume": 158689927.1666667
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0429,
+            "volume": 7753543.46153846
+          },
+          {
+            "price": 0.053918,
+            "volume": 7753543.46153846
+          },
+          {
+            "price": 0.064936,
+            "volume": 7753543.46153846
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 14.64916885,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.1145
+      },
+      "ema": {
+        "ema20": 0.11276019,
+        "ema50": 0.10983345,
+        "ema200": 0.11512272
+      },
+      "rsi": 59.37772803,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 45.06617138,
+        "plusDI": 17.26190476,
+        "minusDI": 16.96428571
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.0024,
+      "atr_pct": 2.1,
+      "bollinger": {
+        "upper": 0.120894,
+        "middle": 0.11285,
+        "lower": 0.104806,
+        "bandwidth": 14.256099208009502
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.0949,
+          0.0997,
+          0.1173,
+          0.1281,
+          0.1294
+        ],
+        "resistance_levels": [
+          0.1783,
+          0.1305,
+          0.1298,
+          0.1101
+        ],
+        "support": 0.0997,
+        "resistance": 0.1101
+      },
+      "fibs": {
+        "swing_high": 0.119,
+        "swing_low": 0.0949,
+        "retracements": {
+          "0": 0.119,
+          "236": 0.1133124,
+          "382": 0.1097938,
+          "500": 0.10694999999999999,
+          "618": 0.1041062,
+          "786": 0.10005739999999999,
+          "1000": 0.0949
+        },
+        "extensions": {
+          "1272": 0.1496552,
+          "1618": 0.1579938,
+          "2000": 0.1672
+        }
+      },
+      "volume_profile": {
+        "POC": 0.1374,
+        "value_area_high": 0.2094,
+        "value_area_low": 0.0924,
+        "value_area_range_pct": 126.62337662,
+        "high_volume_nodes": [
+          {
+            "price": 0.1239,
+            "volume": 50720055.2
+          },
+          {
+            "price": 0.1284,
+            "volume": 75420805.70000002
+          },
+          {
+            "price": 0.1329,
+            "volume": 94924117.53333333
+          },
+          {
+            "price": 0.1374,
+            "volume": 137809477.3333333
+          },
+          {
+            "price": 0.1419,
+            "volume": 100248984.66666666
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0429,
+            "volume": 1429852
+          },
+          {
+            "price": 0.0474,
+            "volume": 1429852
+          },
+          {
+            "price": 0.0519,
+            "volume": 1429852
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 20,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.1145
+      },
+      "ema": {
+        "ema20": 0.11424181,
+        "ema50": 0.11392653,
+        "ema200": 0.10978284
+      },
+      "rsi": 46.54810555,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 17.38662192,
+        "plusDI": 22.34636872,
+        "minusDI": 22.90502793
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00127857,
+      "atr_pct": 1.12,
+      "bollinger": {
+        "upper": 0.11647852,
+        "middle": 0.114275,
+        "lower": 0.11207148,
+        "bandwidth": 3.856521393855989
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.0949,
+          0.0997,
+          0.1011,
+          0.1016,
+          0.1022
+        ],
+        "resistance_levels": [
+          0.119,
+          0.1101,
+          0.1084,
+          0.1071,
+          0.1066
+        ],
+        "support": 0.1011,
+        "resistance": 0.119
+      },
+      "fibs": {
+        "swing_high": 0.119,
+        "swing_low": 0.1011,
+        "retracements": {
+          "0": 0.119,
+          "236": 0.11477559999999999,
+          "382": 0.11216219999999999,
+          "500": 0.11005,
+          "618": 0.1079378,
+          "786": 0.1049306,
+          "1000": 0.1011
+        },
+        "extensions": {
+          "1272": 0.1417688,
+          "1618": 0.1479622,
+          "2000": 0.1548
+        }
+      },
+      "volume_profile": {
+        "POC": 0.103666,
+        "value_area_high": 0.126068,
+        "value_area_low": 0.096848,
+        "value_area_range_pct": 30.17098959,
+        "high_volume_nodes": [
+          {
+            "price": 0.102692,
+            "volume": 7438300.5
+          },
+          {
+            "price": 0.103666,
+            "volume": 10729451.41666667
+          },
+          {
+            "price": 0.10464,
+            "volume": 10716858.28571429
+          },
+          {
+            "price": 0.105614,
+            "volume": 6772484.50238095
+          },
+          {
+            "price": 0.106588,
+            "volume": 6240588.11904762
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0949,
+            "volume": 451280.5
+          },
+          {
+            "price": 0.095874,
+            "volume": 784821.5
+          },
+          {
+            "price": 0.096848,
+            "volume": 1342843.75
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 9.46200873,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 186.452,
+    "alphaScore": 186.452,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "SOMIUSDT",
+    "symbol": "SOMIUSDT",
+    "name": "SomniaOFT",
+    "price": 0.39451271861536746,
+    "logo": "https://cdn.lunarcrush.com/somniaoft.png",
+    "network": "ethereum",
+    "address": "0x1b0f6590d21dc02b92ad3a7d00f8884dc4f1aed9",
+    "category_main": "layer-1",
+    "score": 55.98,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 636",
+      "Galaxy ↑ by 8.5",
+      "Engagement eff. 77.9",
+      "OI/Turnover 0.96",
+      "Sentiment 92",
+      "24h 12.70%",
+      "Volatility 0.0636"
+    ],
+    "derived": {
+      "pct_change_1h": -0.29,
+      "pct_change_24h": 12.7,
+      "volatility": 0.0636,
+      "oi_ratio": 0.96,
+      "engagement_efficiency": 77.94,
+      "galaxy": 66.5,
+      "galaxy_prev": 58,
+      "galaxy_jump": 8.5,
+      "alt_rank": 37,
+      "alt_rank_prev": 673,
+      "alt_rank_jump": 636,
+      "sentiment": 92,
+      "volume24h": 17868049,
+      "turnover24h": 6729008.8598,
+      "openInterestValue": 6461472.84,
+      "fundingRate": 0.0000125,
+      "market_cap": 63200937.52,
+      "market_cap_rank": 552,
+      "circulating_supply": 160200000,
+      "max_supply": 1000000000,
+      "social_dominance": 0.12239856405587048,
+      "market_dominance": 0.001831783084387116
+    },
+    "raw": {
+      "symbol": "SOMI",
+      "bybit_symbol": "SOMIUSDT",
+      "lastPrice": "0.3958",
+      "price24hPcnt": "0.126993",
+      "percent_change_1h": -0.29196214,
+      "percent_change_24h": 12.65279263,
+      "interactions_24h": 102251,
+      "social_volume_24h": 1312,
+      "galaxy_score": 66.5,
+      "galaxy_score_previous": 58,
+      "alt_rank": 37,
+      "alt_rank_previous": 673,
+      "volatility": 0.0636,
+      "categories": "layer-1,base-ecosystem",
+      "topic": "somi somniaoft",
+      "logo": "https://cdn.lunarcrush.com/somniaoft.png",
+      "blockchains": [
+        {
+          "network": "ethereum",
+          "address": "0x1b0f6590d21dc02b92ad3a7d00f8884dc4f1aed9",
+          "decimals": null
+        },
+        {
+          "network": "bnbchain",
+          "address": "0xa9616e5e23ec1582c2828b025becf3ef610e266f",
+          "decimals": null
+        },
+        {
+          "network": "base",
+          "address": "0x47636b3188774a3e7273d85a537b9ba4ee7b2535",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.4120",
+      "lowPrice24h": "0.3332",
+      "indexPrice": "0.3962",
+      "markPrice": "0.3958",
+      "bid1Price": "0.3957",
+      "ask1Price": "0.3958",
+      "market_cap_rank": 552
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "SOMI",
+      "quoteCoin": "USDT",
+      "minOrderQty": 0.1,
+      "maxOrderQty": 83000,
+      "qtyStep": 0.1,
+      "minNotionalValue": 5,
+      "tickSize": 0.0001,
+      "maxLeverage": 50,
+      "launchTime": "1756823941000",
+      "fundingIntervalMinutes": 60,
+      "tradable": true,
+      "bid_price": 0.3956,
+      "ask_price": 0.3957,
+      "mid_price": 0.39565,
+      "spread_pct": 0.02527486414760242,
+      "bid_vol5": 17081.1,
+      "ask_vol5": 8408,
+      "imbalance_5_levels": 0.34026701609707677,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.288Z",
+      "current": 0.0000125,
+      "avg": 0.0000125,
+      "avg_7": 0.0000125,
+      "recent_history": [
+        0.0000125,
+        0.0000125,
+        0.0000125,
+        0.0000125,
+        0.0000125
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.3958
+      },
+      "ema": {
+        "ema20": 0.36676904,
+        "ema50": 0.37978748,
+        "ema200": 0.51412683
+      },
+      "rsi": 59.80769033,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 16.79181921,
+        "plusDI": 24.10501193,
+        "minusDI": 15.31424025
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.01795714,
+      "atr_pct": 4.54,
+      "bollinger": {
+        "upper": 0.39840031,
+        "middle": 0.36008,
+        "lower": 0.32175969,
+        "bandwidth": 21.28433300995405
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.3206,
+          0.4601,
+          0.4736,
+          0.675,
+          0.8853
+        ],
+        "resistance_levels": [
+          1.9051,
+          1.5675,
+          1.1147,
+          0.577
+        ],
+        "support": 0.4601,
+        "resistance": 0.577
+      },
+      "fibs": {
+        "swing_high": 0.577,
+        "swing_low": 0.3111,
+        "retracements": {
+          "0": 0.577,
+          "236": 0.5142476,
+          "382": 0.47542619999999997,
+          "500": 0.44404999999999994,
+          "618": 0.4126738,
+          "786": 0.36800259999999996,
+          "1000": 0.3111
+        },
+        "extensions": {
+          "1272": 0.9152248,
+          "1618": 1.0072261999999998,
+          "2000": 1.1088
+        }
+      },
+      "volume_profile": {
+        "POC": 0.50238,
+        "value_area_high": 1.07622,
+        "value_area_low": 0.34298,
+        "value_area_range_pct": 213.78506035,
+        "high_volume_nodes": [
+          {
+            "price": 0.4705,
+            "volume": 233510983.56142852
+          },
+          {
+            "price": 0.50238,
+            "volume": 320880013.4614286
+          },
+          {
+            "price": 0.53426,
+            "volume": 259763438.63642862
+          },
+          {
+            "price": 0.56614,
+            "volume": 176787758.04642862
+          },
+          {
+            "price": 0.7893,
+            "volume": 195837439.6418832
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.3111,
+            "volume": 54626983.35833333
+          },
+          {
+            "price": 1.45878,
+            "volume": 54381058.31376679
+          },
+          {
+            "price": 1.49066,
+            "volume": 57938582.69154457
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 26.92774128,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.3956
+      },
+      "ema": {
+        "ema20": 0.3852534,
+        "ema50": 0.37072807,
+        "ema200": 0.37962524
+      },
+      "rsi": 61.96204071,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 55.63076939,
+        "plusDI": 23.91930836,
+        "minusDI": 10.73487032
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00991429,
+      "atr_pct": 2.51,
+      "bollinger": {
+        "upper": 0.42285552,
+        "middle": 0.385425,
+        "lower": 0.34799448,
+        "bandwidth": 19.42298274664225
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.3111,
+          0.3327,
+          0.3694,
+          0.4601,
+          0.5007
+        ],
+        "resistance_levels": [
+          0.577,
+          0.5524,
+          0.5327,
+          0.4354,
+          0.3824
+        ],
+        "support": 0.3327,
+        "resistance": 0.3824
+      },
+      "fibs": {
+        "swing_high": 0.412,
+        "swing_low": 0.3111,
+        "retracements": {
+          "0": 0.412,
+          "236": 0.38818759999999997,
+          "382": 0.37345619999999996,
+          "500": 0.36155,
+          "618": 0.3496438,
+          "786": 0.3326926,
+          "1000": 0.3111
+        },
+        "extensions": {
+          "1272": 0.5403448,
+          "1618": 0.5752562,
+          "2000": 0.6137999999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 0.503964,
+        "value_area_high": 0.87362,
+        "value_area_low": 0.3111,
+        "value_area_range_pct": 180.81645773,
+        "high_volume_nodes": [
+          {
+            "price": 0.487892,
+            "volume": 88625553.74952383
+          },
+          {
+            "price": 0.503964,
+            "volume": 106859668.59952383
+          },
+          {
+            "price": 0.520036,
+            "volume": 97320683.57452382
+          },
+          {
+            "price": 0.536108,
+            "volume": 74859524.88452382
+          },
+          {
+            "price": 0.79326,
+            "volume": 70171673.06750001
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.3111,
+            "volume": 11416331.77619047
+          },
+          {
+            "price": 0.407532,
+            "volume": 13572283.57619048
+          },
+          {
+            "price": 0.423604,
+            "volume": 11927806.57619048
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 27.39231547,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.3956
+      },
+      "ema": {
+        "ema20": 0.39423811,
+        "ema50": 0.39135572,
+        "ema200": 0.37053439
+      },
+      "rsi": 51.40361756,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 14.24911724,
+        "plusDI": 20.17167382,
+        "minusDI": 15.87982833
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00499286,
+      "atr_pct": 1.26,
+      "bollinger": {
+        "upper": 0.3997889,
+        "middle": 0.393615,
+        "lower": 0.3874411,
+        "bandwidth": 3.137027176896291
+      },
+      "market_structure": {
+        "structure": "UPTREND",
+        "support_levels": [
+          0.3111,
+          0.3239,
+          0.3293,
+          0.3327,
+          0.3332
+        ],
+        "resistance_levels": [
+          0.412,
+          0.3824,
+          0.3602,
+          0.3543,
+          0.3492
+        ],
+        "support": 0.3332,
+        "resistance": 0.412
+      },
+      "fibs": {
+        "swing_high": 0.412,
+        "swing_low": 0.3332,
+        "retracements": {
+          "0": 0.412,
+          "236": 0.3934032,
+          "382": 0.38189839999999997,
+          "500": 0.3726,
+          "618": 0.3633016,
+          "786": 0.3500632,
+          "1000": 0.3332
+        },
+        "extensions": {
+          "1272": 0.5122336,
+          "1618": 0.5394983999999999,
+          "2000": 0.5695999999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 0.344782,
+        "value_area_high": 0.396836,
+        "value_area_low": 0.32641,
+        "value_area_range_pct": 21.57593211,
+        "high_volume_nodes": [
+          {
+            "price": 0.335596,
+            "volume": 6868163.5325
+          },
+          {
+            "price": 0.338658,
+            "volume": 9321795.4825
+          },
+          {
+            "price": 0.34172,
+            "volume": 11866070.88916666
+          },
+          {
+            "price": 0.344782,
+            "volume": 12319072.4875
+          },
+          {
+            "price": 0.347844,
+            "volume": 11082461.62916666
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.3111,
+            "volume": 1251226.29166667
+          },
+          {
+            "price": 0.314162,
+            "volume": 1791169.16666667
+          },
+          {
+            "price": 0.317224,
+            "volume": 1791169.16666667
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 12.84580384,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 186.392,
+    "alphaScore": 186.392,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "HYPEUSDT",
+    "symbol": "HYPEUSDT",
+    "name": "Hyperliquid",
+    "price": 40.71447029968258,
+    "logo": "https://cdn.lunarcrush.com/hyperliquid.png",
+    "category_main": "layer-1",
+    "score": 55.73,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 323",
+      "Galaxy ↑ by 39.4",
+      "Engagement eff. 269.0",
+      "OI/Turnover 0.88",
+      "Sentiment 86",
+      "Volatility 0.0370"
+    ],
+    "derived": {
+      "pct_change_1h": -1.17,
+      "pct_change_24h": 1.64,
+      "volatility": 0.037,
+      "oi_ratio": 0.876,
+      "engagement_efficiency": 269.04,
+      "galaxy": 74.4,
+      "galaxy_prev": 35,
+      "galaxy_jump": 39.4,
+      "alt_rank": 306,
+      "alt_rank_prev": 629,
+      "alt_rank_jump": 323,
+      "sentiment": 86,
+      "volume24h": 8472943.18,
+      "turnover24h": 345733673.036,
+      "openInterestValue": 302814052.42,
+      "fundingRate": -0.00008103,
+      "market_cap": 13707960349.32,
+      "market_cap_rank": 13,
+      "circulating_supply": 336685219,
+      "max_supply": 999533278,
+      "social_dominance": 0.7556618665034686,
+      "market_dominance": 0.39730438937535684
+    },
+    "raw": {
+      "symbol": "HYPE",
+      "bybit_symbol": "HYPEUSDT",
+      "lastPrice": "40.806",
+      "price24hPcnt": "0.016364",
+      "percent_change_1h": -1.17404537,
+      "percent_change_24h": 2.82935183,
+      "interactions_24h": 2179188,
+      "social_volume_24h": 8100,
+      "galaxy_score": 74.4,
+      "galaxy_score_previous": 35,
+      "alt_rank": 306,
+      "alt_rank_previous": 629,
+      "volatility": 0.037,
+      "categories": "layer-1,dao,derivatives,perpetuals",
+      "topic": "hype hyperliquid",
+      "logo": "https://cdn.lunarcrush.com/hyperliquid.png",
+      "highPrice24h": "43.299",
+      "lowPrice24h": "37.920",
+      "indexPrice": "40.843",
+      "markPrice": "40.818",
+      "bid1Price": "40.804",
+      "ask1Price": "40.805",
+      "market_cap_rank": 13
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "HYPE",
+      "quoteCoin": "USDT",
+      "minOrderQty": 0.01,
+      "maxOrderQty": 4900,
+      "qtyStep": 0.01,
+      "minNotionalValue": 5,
+      "tickSize": 0.001,
+      "maxLeverage": 75,
+      "launchTime": "1733316740000",
+      "fundingIntervalMinutes": 480,
+      "tradable": true,
+      "bid_price": 40.887,
+      "ask_price": 40.892,
+      "mid_price": 40.8895,
+      "spread_pct": 0.012228078112969243,
+      "bid_vol5": 188.92,
+      "ask_vol5": 183.73000000000002,
+      "imbalance_5_levels": 0.013927277606332939,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.979Z",
+      "current": 0.00000522,
+      "avg": 0.00005321600000000001,
+      "avg_7": 0.00005321600000000001,
+      "recent_history": [
+        0.0001,
+        0.0001,
+        0.00004165,
+        0.00001921,
+        0.00000522
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 40.812
+      },
+      "ema": {
+        "ema20": 40.61898454,
+        "ema50": 41.27111316,
+        "ema200": 42.49268453
+      },
+      "rsi": 56.06596576,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 8.98562425,
+        "plusDI": 17.23748437,
+        "minusDI": 21.5418129
+      },
+      "adx_signal": "WEAK",
+      "atr": 1.77064286,
+      "atr_pct": 4.34,
+      "bollinger": {
+        "upper": 43.11704938,
+        "middle": 40.50855,
+        "lower": 37.90005062,
+        "bandwidth": 12.878759546415397
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          20.784,
+          33.266,
+          34.436,
+          39.703,
+          52.03
+        ],
+        "resistance_levels": [
+          59.45,
+          57.5,
+          51.486,
+          51.227,
+          50.181
+        ],
+        "support": 34.436,
+        "resistance": 50.181
+      },
+      "fibs": {
+        "swing_high": 50.181,
+        "swing_low": 34.436,
+        "retracements": {
+          "0": 50.181,
+          "236": 46.46518,
+          "382": 44.16641,
+          "500": 42.308499999999995,
+          "618": 40.45059,
+          "786": 37.80543,
+          "1000": 34.436
+        },
+        "extensions": {
+          "1272": 70.20864,
+          "1618": 75.65641,
+          "2000": 81.67099999999999
+        }
+      },
+      "volume_profile": {
+        "POC": 43.9836,
+        "value_area_high": 48.62352,
+        "value_area_low": 37.79704,
+        "value_area_range_pct": 28.64372448,
+        "high_volume_nodes": [
+          {
+            "price": 37.79704,
+            "volume": 20511166.35783333
+          },
+          {
+            "price": 38.57036,
+            "volume": 21299026.24116666
+          },
+          {
+            "price": 39.34368,
+            "volume": 20901078.86083333
+          },
+          {
+            "price": 40.117,
+            "volume": 22116568.00633333
+          },
+          {
+            "price": 40.89032,
+            "volume": 19824577.88416667
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 20.784,
+            "volume": 380682.153
+          },
+          {
+            "price": 21.55732,
+            "volume": 380682.153
+          },
+          {
+            "price": 22.33064,
+            "volume": 380682.153
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 7.77124375,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 40.812
+      },
+      "ema": {
+        "ema20": 41.39626735,
+        "ema50": 40.7396594,
+        "ema200": 41.23757988
+      },
+      "rsi": 48.04676528,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 39.57055779,
+        "plusDI": 17.41600549,
+        "minusDI": 29.51317465
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.72921429,
+      "atr_pct": 1.79,
+      "bollinger": {
+        "upper": 43.91661173,
+        "middle": 41.5735,
+        "lower": 39.23038827,
+        "bandwidth": 11.27214083214052
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          35.356,
+          37.561,
+          38.65,
+          42.301,
+          45.389
+        ],
+        "resistance_levels": [
+          50.181,
+          49.398,
+          42.19,
+          40.891,
+          39.573
+        ],
+        "support": 37.561,
+        "resistance": 42.19
+      },
+      "fibs": {
+        "swing_high": 43.299,
+        "swing_low": 35.356,
+        "retracements": {
+          "0": 43.299,
+          "236": 41.424452,
+          "382": 40.264774,
+          "500": 39.3275,
+          "618": 38.390226,
+          "786": 37.055802,
+          "1000": 35.356
+        },
+        "extensions": {
+          "1272": 53.402496,
+          "1618": 56.150774,
+          "2000": 59.184999999999995
+        }
+      },
+      "volume_profile": {
+        "POC": 39.2052,
+        "value_area_high": 45.3456,
+        "value_area_low": 34.90692,
+        "value_area_range_pct": 29.90432843,
+        "high_volume_nodes": [
+          {
+            "price": 35.52096,
+            "volume": 9910065.11952381
+          },
+          {
+            "price": 36.135,
+            "volume": 9546545.67352381
+          },
+          {
+            "price": 36.74904,
+            "volume": 12571237.94752381
+          },
+          {
+            "price": 37.36308,
+            "volume": 15492850.84619047
+          },
+          {
+            "price": 37.97712,
+            "volume": 18072016.00785715
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 20.784,
+            "volume": 191349.68685714
+          },
+          {
+            "price": 21.39804,
+            "volume": 191349.68685714
+          },
+          {
+            "price": 22.01208,
+            "volume": 191349.68685714
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 3.93707733,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 40.822
+      },
+      "ema": {
+        "ema20": 41.4103265,
+        "ema50": 41.65899563,
+        "ema200": 40.72827557
+      },
+      "rsi": 32.52103288,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 67.51368568,
+        "plusDI": 4.09197194,
+        "minusDI": 43.02416212
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.36657143,
+      "atr_pct": 0.9,
+      "bollinger": {
+        "upper": 43.08401511,
+        "middle": 41.62545,
+        "lower": 40.16688489,
+        "bandwidth": 7.008044902292007
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          35.356,
+          36.674,
+          37.561,
+          37.92,
+          38.128
+        ],
+        "resistance_levels": [
+          43.299,
+          42.19,
+          40.726,
+          40.542,
+          40.252
+        ],
+        "support": 37.92,
+        "resistance": 43.299
+      },
+      "fibs": {
+        "swing_high": 43.299,
+        "swing_low": 37.92,
+        "retracements": {
+          "0": 43.299,
+          "236": 42.029556,
+          "382": 41.244222,
+          "500": 40.6095,
+          "618": 39.974778,
+          "786": 39.071106,
+          "1000": 37.92
+        },
+        "extensions": {
+          "1272": 50.141087999999996,
+          "1618": 52.002221999999996,
+          "2000": 54.056999999999995
+        }
+      },
+      "volume_profile": {
+        "POC": 39.8035,
+        "value_area_high": 43.9545,
+        "value_area_low": 37.135,
+        "value_area_range_pct": 18.36407702,
+        "high_volume_nodes": [
+          {
+            "price": 38.321,
+            "volume": 3022226.88304762
+          },
+          {
+            "price": 38.6175,
+            "volume": 2972238.57638095
+          },
+          {
+            "price": 39.507,
+            "volume": 3559186.26288095
+          },
+          {
+            "price": 39.8035,
+            "volume": 3768748.48488095
+          },
+          {
+            "price": 40.1,
+            "volume": 3704821.75416667
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 35.356,
+            "volume": 344360.711
+          },
+          {
+            "price": 35.6525,
+            "volume": 391434.271
+          },
+          {
+            "price": 35.949,
+            "volume": 391434.271
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 2.4949782,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 186.292,
+    "alphaScore": 186.292,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "OMUSDT",
+    "symbol": "OMUSDT",
+    "name": "MANTRA",
+    "price": 0.09820870262493449,
+    "logo": "https://cdn.lunarcrush.com/mantra.png",
+    "network": "ethereum",
+    "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+    "category_main": "real-world-assets",
+    "score": 55.52,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 138",
+      "Galaxy ↑ by 18.6",
+      "Engagement eff. 177.1",
+      "OI/Turnover 0.47",
+      "Sentiment 86",
+      "24h 5.69%",
+      "Volatility 0.0557"
+    ],
+    "derived": {
+      "pct_change_1h": -0.8,
+      "pct_change_24h": 5.69,
+      "volatility": 0.0557,
+      "oi_ratio": 0.469,
+      "engagement_efficiency": 177.1,
+      "galaxy": 78.6,
+      "galaxy_prev": 60,
+      "galaxy_jump": 18.6,
+      "alt_rank": 111,
+      "alt_rank_prev": 249,
+      "alt_rank_jump": 138,
+      "sentiment": 86,
+      "volume24h": 112710235,
+      "turnover24h": 11097809.1945,
+      "openInterestValue": 5205993.02,
+      "fundingRate": 0.0000125,
+      "market_cap": 108222111.64,
+      "market_cap_rank": 412,
+      "circulating_supply": 1101960506.02,
+      "max_supply": 0,
+      "social_dominance": 0.1087779921411166,
+      "market_dominance": 0.003133315739742551
+    },
+    "raw": {
+      "symbol": "OM",
+      "bybit_symbol": "OMUSDT",
+      "lastPrice": "0.09842",
+      "price24hPcnt": "0.056915",
+      "percent_change_1h": -0.798211311511,
+      "percent_change_24h": 5.788040091401,
+      "interactions_24h": 206499,
+      "social_volume_24h": 1166,
+      "galaxy_score": 78.6,
+      "galaxy_score_previous": 60,
+      "alt_rank": 111,
+      "alt_rank_previous": 249,
+      "volatility": 0.0557,
+      "categories": "real-world-assets,defi,dao,layer-1,base-ecosystem,bsc",
+      "topic": "om mantra",
+      "logo": "https://cdn.lunarcrush.com/mantra.png",
+      "blockchains": [
+        {
+          "network": "ethereum",
+          "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+          "decimals": 18
+        },
+        {
+          "network": "bnbchain",
+          "address": "0xf78d2e7936f5fe18308a3b2951a93b6c4a41f5e2",
+          "decimals": null
+        },
+        {
+          "network": "polygon",
+          "address": "0xc3ec80343d2bae2f8e680fdadde7c17e71e114ea",
+          "decimals": null
+        },
+        {
+          "network": "base",
+          "address": "0x3992B27dA26848C2b19CeA6Fd25ad5568B68AB98",
+          "decimals": 18
+        }
+      ],
+      "highPrice24h": "0.10725",
+      "lowPrice24h": "0.08931",
+      "indexPrice": "0.09845",
+      "markPrice": "0.09842",
+      "bid1Price": "0.09842",
+      "ask1Price": "0.09843",
+      "market_cap_rank": 412
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "OM",
+      "quoteCoin": "USDT",
+      "minOrderQty": 1,
+      "maxOrderQty": 75000,
+      "qtyStep": 1,
+      "minNotionalValue": 5,
+      "tickSize": 0.00001,
+      "maxLeverage": 50,
+      "launchTime": "1710743501000",
+      "fundingIntervalMinutes": 60,
+      "tradable": true,
+      "bid_price": 0.09849,
+      "ask_price": 0.0985,
+      "mid_price": 0.098495,
+      "spread_pct": 0.010152799634509367,
+      "bid_vol5": 22117,
+      "ask_vol5": 17714,
+      "imbalance_5_levels": 0.11054204011950491,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.489Z",
+      "current": 0.0000125,
+      "avg": 0.0000125,
+      "avg_7": 0.0000125,
+      "recent_history": [
+        0.0000125,
+        0.0000125,
+        0.0000125,
+        0.0000125,
+        0.0000125
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.09842
+      },
+      "ema": {
+        "ema20": 0.09542269,
+        "ema50": 0.09835356,
+        "ema200": 0.12175686
+      },
+      "rsi": 62.81675235,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 19.96361162,
+        "plusDI": 25.80750943,
+        "minusDI": 19.0195114
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00435643,
+      "atr_pct": 4.43,
+      "bollinger": {
+        "upper": 0.10175027,
+        "middle": 0.0938025,
+        "lower": 0.08585473,
+        "bandwidth": 16.945745939469788
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.0349,
+          0.1059,
+          0.1522,
+          0.1572,
+          0.2008
+        ],
+        "resistance_levels": [
+          0.254,
+          0.2289,
+          0.1844,
+          0.1811
+        ],
+        "support": 0.1059,
+        "resistance": 0.1811
+      },
+      "fibs": {
+        "swing_high": 0.1314,
+        "swing_low": 0.0827,
+        "retracements": {
+          "0": 0.1314,
+          "236": 0.1199068,
+          "382": 0.1127966,
+          "500": 0.10704999999999999,
+          "618": 0.10130339999999999,
+          "786": 0.09312179999999999,
+          "1000": 0.0827
+        },
+        "extensions": {
+          "1272": 0.19334639999999997,
+          "1618": 0.21019659999999998,
+          "2000": 0.22879999999999998
+        }
+      },
+      "volume_profile": {
+        "POC": 0.12059,
+        "value_area_high": 0.17471,
+        "value_area_low": 0.08451,
+        "value_area_range_pct": 106.73293101,
+        "high_volume_nodes": [
+          {
+            "price": 0.09353,
+            "volume": 217306447
+          },
+          {
+            "price": 0.09804,
+            "volume": 236700886.66666666
+          },
+          {
+            "price": 0.10255,
+            "volume": 353336054.6666667
+          },
+          {
+            "price": 0.10706,
+            "volume": 227351541.33333334
+          },
+          {
+            "price": 0.11157,
+            "volume": 304775274.8333333
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0349,
+            "volume": 6282726
+          },
+          {
+            "price": 0.03941,
+            "volume": 6282726
+          },
+          {
+            "price": 0.04392,
+            "volume": 6282726
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 22.52590937,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.09844
+      },
+      "ema": {
+        "ema20": 0.09963958,
+        "ema50": 0.09648209,
+        "ema200": 0.09851759
+      },
+      "rsi": 49.61215086,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 65.96478168,
+        "plusDI": 28.66035857,
+        "minusDI": 16.33466135
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00286857,
+      "atr_pct": 2.91,
+      "bollinger": {
+        "upper": 0.10795864,
+        "middle": 0.0998595,
+        "lower": 0.09176036,
+        "bandwidth": 16.22106939995945
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.0827,
+          0.08642,
+          0.0882,
+          0.099,
+          0.1151
+        ],
+        "resistance_levels": [
+          0.1213,
+          0.1169,
+          0.1137,
+          0.1078,
+          0.1
+        ],
+        "support": 0.08642,
+        "resistance": 0.1
+      },
+      "fibs": {
+        "swing_high": 0.10725,
+        "swing_low": 0.0827,
+        "retracements": {
+          "0": 0.10725,
+          "236": 0.1014562,
+          "382": 0.0978719,
+          "500": 0.094975,
+          "618": 0.0920781,
+          "786": 0.0879537,
+          "1000": 0.0827
+        },
+        "extensions": {
+          "1272": 0.1384776,
+          "1618": 0.1469719,
+          "2000": 0.15635
+        }
+      },
+      "volume_profile": {
+        "POC": 0.12161,
+        "value_area_high": 0.13955,
+        "value_area_low": 0.0947,
+        "value_area_range_pct": 47.36008448,
+        "high_volume_nodes": [
+          {
+            "price": 0.09769,
+            "volume": 199343049.01428577
+          },
+          {
+            "price": 0.10068,
+            "volume": 190954213.7809524
+          },
+          {
+            "price": 0.10367,
+            "volume": 226001119.94761905
+          },
+          {
+            "price": 0.10666,
+            "volume": 143098413.61428574
+          },
+          {
+            "price": 0.10965,
+            "volume": 197027334.44761905
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0349,
+            "volume": 2553440.4
+          },
+          {
+            "price": 0.03789,
+            "volume": 2553440.4
+          },
+          {
+            "price": 0.04088,
+            "volume": 2553440.4
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 23.53718001,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.09844
+      },
+      "ema": {
+        "ema20": 0.1007264,
+        "ema50": 0.10081924,
+        "ema200": 0.09639556
+      },
+      "rsi": 36.10401703,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 30.56397358,
+        "plusDI": 14.10852713,
+        "minusDI": 32.75193798
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00184286,
+      "atr_pct": 1.87,
+      "bollinger": {
+        "upper": 0.10672436,
+        "middle": 0.101637,
+        "lower": 0.09654964,
+        "bandwidth": 10.01083713750926
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.0827,
+          0.08642,
+          0.08931,
+          0.0908
+        ],
+        "resistance_levels": [
+          0.1,
+          0.0951,
+          0.0948,
+          0.09357
+        ],
+        "support": 0.08931,
+        "resistance": 0.09357
+      },
+      "fibs": {
+        "swing_high": 0.10725,
+        "swing_low": 0.08931,
+        "retracements": {
+          "0": 0.10725,
+          "236": 0.10301616,
+          "382": 0.10039692,
+          "500": 0.09828,
+          "618": 0.09616308,
+          "786": 0.09314916,
+          "1000": 0.08931
+        },
+        "extensions": {
+          "1272": 0.13006968,
+          "1618": 0.13627692,
+          "2000": 0.14312999999999998
+        }
+      },
+      "volume_profile": {
+        "POC": 0.104588,
+        "value_area_high": 0.107324,
+        "value_area_low": 0.090224,
+        "value_area_range_pct": 18.95282852,
+        "high_volume_nodes": [
+          {
+            "price": 0.08954,
+            "volume": 28062940.65909091
+          },
+          {
+            "price": 0.090908,
+            "volume": 30497000.60909092
+          },
+          {
+            "price": 0.091592,
+            "volume": 35039127.85909092
+          },
+          {
+            "price": 0.092276,
+            "volume": 36648309.60909091
+          },
+          {
+            "price": 0.09296,
+            "volume": 38845019.19242423
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.0827,
+            "volume": 1980443.57142857
+          },
+          {
+            "price": 0.083384,
+            "volume": 2823408.17142857
+          },
+          {
+            "price": 0.084068,
+            "volume": 2823408.17142857
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 6.24542869,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 186.208,
+    "alphaScore": 186.208,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "JTOUSDT",
+    "symbol": "JTOUSDT",
+    "name": "Jito",
+    "price": 0.837896293495768,
+    "logo": "https://cdn.lunarcrush.com/jito.png",
+    "network": "solana",
+    "address": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+    "category_main": "defi",
+    "score": 55.44,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 193",
+      "Galaxy ↑ by 14.2",
+      "Engagement eff. 58.9",
+      "OI/Turnover 0.55",
+      "Sentiment 84",
+      "24h 7.13%",
+      "Volatility 0.0458"
+    ],
+    "derived": {
+      "pct_change_1h": -0.68,
+      "pct_change_24h": 7.13,
+      "volatility": 0.0458,
+      "oi_ratio": 0.55,
+      "engagement_efficiency": 58.92,
+      "galaxy": 75.2,
+      "galaxy_prev": 61,
+      "galaxy_jump": 14.2,
+      "alt_rank": 354,
+      "alt_rank_prev": 547,
+      "alt_rank_jump": 193,
+      "sentiment": 84,
+      "volume24h": 10989955.6,
+      "turnover24h": 8716695.049,
+      "openInterestValue": 4790853.83,
+      "fundingRate": -0.00007222,
+      "market_cap": 333790147.37,
+      "market_cap_rank": 217,
+      "circulating_supply": 398366898.1,
+      "max_supply": 0,
+      "social_dominance": 0.030786224190882054,
+      "market_dominance": 0.009674399932658605
+    },
+    "raw": {
+      "symbol": "JTO",
+      "bybit_symbol": "JTOUSDT",
+      "lastPrice": "0.8380",
+      "price24hPcnt": "0.071337",
+      "percent_change_1h": -0.68013129,
+      "percent_change_24h": 7.72434326,
+      "interactions_24h": 19444,
+      "social_volume_24h": 330,
+      "galaxy_score": 75.2,
+      "galaxy_score_previous": 61,
+      "alt_rank": 354,
+      "alt_rank_previous": 547,
+      "volatility": 0.0458,
+      "categories": "defi,dao,liquid-staking-tokens,solana-ecosystem,made-in-usa",
+      "topic": "jto jito",
+      "logo": "https://cdn.lunarcrush.com/jito.png",
+      "blockchains": [
+        {
+          "network": "solana",
+          "address": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.8538",
+      "lowPrice24h": "0.7177",
+      "indexPrice": "0.8394",
+      "markPrice": "0.8381",
+      "bid1Price": "0.8379",
+      "ask1Price": "0.8381",
+      "market_cap_rank": 217
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "JTO",
+      "quoteCoin": "USDT",
+      "minOrderQty": 0.1,
+      "maxOrderQty": 195380,
+      "qtyStep": 0.1,
+      "minNotionalValue": 5,
+      "tickSize": 0.0001,
+      "maxLeverage": 50,
+      "launchTime": "1701978619000",
+      "fundingIntervalMinutes": 240,
+      "tradable": true,
+      "bid_price": 0.8382,
+      "ask_price": 0.8383,
+      "mid_price": 0.8382499999999999,
+      "spread_pct": 0.011929615269919477,
+      "bid_vol5": 4755.5,
+      "ask_vol5": 3607.8,
+      "imbalance_5_levels": 0.13723051905348366,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.280Z",
+      "current": -0.00001053,
+      "avg": 0.000037894,
+      "avg_7": 0.000037894,
+      "recent_history": [
+        0.00005,
+        0.00005,
+        0.00005,
+        0.00005,
+        -0.00001053
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.838
+      },
+      "ema": {
+        "ema20": 0.79889154,
+        "ema50": 0.85040158,
+        "ema200": 1.10172452
+      },
+      "rsi": 55.71619031,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 22.87261928,
+        "plusDI": 22.45236123,
+        "minusDI": 20.33968517
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.03448571,
+      "atr_pct": 4.12,
+      "bollinger": {
+        "upper": 0.83869896,
+        "middle": 0.782195,
+        "lower": 0.72569104,
+        "bandwidth": 14.447538932820505
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.341,
+          1.006,
+          1.04,
+          1.504,
+          1.782
+        ],
+        "resistance_levels": [
+          2.157,
+          2.11,
+          1.727,
+          1.178
+        ],
+        "support": 1.006,
+        "resistance": 1.178
+      },
+      "fibs": {
+        "swing_high": 1.178,
+        "swing_low": 0.715,
+        "retracements": {
+          "0": 1.178,
+          "236": 1.068732,
+          "382": 1.001134,
+          "500": 0.9464999999999999,
+          "618": 0.8918659999999999,
+          "786": 0.814082,
+          "1000": 0.715
+        },
+        "extensions": {
+          "1272": 1.7669359999999998,
+          "1618": 1.927134,
+          "2000": 2.104
+        }
+      },
+      "volume_profile": {
+        "POC": 1.10372,
+        "value_area_high": 1.83012,
+        "value_area_low": 0.7042,
+        "value_area_range_pct": 159.88639591,
+        "high_volume_nodes": [
+          {
+            "price": 1.03108,
+            "volume": 20551428.3094086
+          },
+          {
+            "price": 1.0674,
+            "volume": 35492172.26774193
+          },
+          {
+            "price": 1.10372,
+            "volume": 41462570.95107526
+          },
+          {
+            "price": 1.14004,
+            "volume": 33959979.72607526
+          },
+          {
+            "price": 1.17636,
+            "volume": 16978785.64274193
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.341,
+            "volume": 717158.46774194
+          },
+          {
+            "price": 0.37732,
+            "volume": 717158.46774194
+          },
+          {
+            "price": 0.41364,
+            "volume": 717158.46774194
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 31.70883055,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.838
+      },
+      "ema": {
+        "ema20": 0.815753,
+        "ema50": 0.79670047,
+        "ema200": 0.85103147
+      },
+      "rsi": 62.548925,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 40.59670502,
+        "plusDI": 18.38899804,
+        "minusDI": 14.65618861
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.01817857,
+      "atr_pct": 2.17,
+      "bollinger": {
+        "upper": 0.88028459,
+        "middle": 0.811185,
+        "lower": 0.74208541,
+        "bandwidth": 17.036702669953588
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.715,
+          0.773,
+          0.867,
+          1.006,
+          1.04
+        ],
+        "resistance_levels": [
+          1.178,
+          1.167,
+          1.155,
+          0.964,
+          0.806
+        ],
+        "support": 0.715,
+        "resistance": 0.806
+      },
+      "fibs": {
+        "swing_high": 0.879,
+        "swing_low": 0.715,
+        "retracements": {
+          "0": 0.879,
+          "236": 0.840296,
+          "382": 0.816352,
+          "500": 0.7969999999999999,
+          "618": 0.777648,
+          "786": 0.750096,
+          "1000": 0.715
+        },
+        "extensions": {
+          "1272": 1.0876080000000001,
+          "1618": 1.144352,
+          "2000": 1.207
+        }
+      },
+      "volume_profile": {
+        "POC": 1.11716,
+        "value_area_high": 1.20032,
+        "value_area_low": 0.78452,
+        "value_area_range_pct": 53.00056085,
+        "high_volume_nodes": [
+          {
+            "price": 0.7568,
+            "volume": 11322004.99256757
+          },
+          {
+            "price": 0.78452,
+            "volume": 8516445.29256757
+          },
+          {
+            "price": 0.81224,
+            "volume": 8593732.34256757
+          },
+          {
+            "price": 1.034,
+            "volume": 14485793.13423423
+          },
+          {
+            "price": 1.06172,
+            "volume": 28185943.20923423
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.341,
+            "volume": 291814.46756757
+          },
+          {
+            "price": 0.36872,
+            "volume": 291814.46756757
+          },
+          {
+            "price": 0.39644,
+            "volume": 291814.46756757
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 33.31264916,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.838
+      },
+      "ema": {
+        "ema20": 0.83403336,
+        "ema50": 0.82600027,
+        "ema200": 0.79628841
+      },
+      "rsi": 52.27689932,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 19.01740694,
+        "plusDI": 19.89319092,
+        "minusDI": 20.09345794
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.0107,
+      "atr_pct": 1.28,
+      "bollinger": {
+        "upper": 0.85207578,
+        "middle": 0.835735,
+        "lower": 0.81939422,
+        "bandwidth": 3.910517155588232
+      },
+      "market_structure": {
+        "structure": "UPTREND",
+        "support_levels": [
+          0.715,
+          0.7177,
+          0.7264,
+          0.751,
+          0.8115
+        ],
+        "resistance_levels": [
+          0.806,
+          0.785,
+          0.7789
+        ],
+        "support": 0.8115,
+        "resistance": 0.785
+      },
+      "fibs": {
+        "swing_high": 0.8538,
+        "swing_low": 0.7177,
+        "retracements": {
+          "0": 0.8538,
+          "236": 0.8216804,
+          "382": 0.8018098,
+          "500": 0.78575,
+          "618": 0.7696902,
+          "786": 0.7468254,
+          "1000": 0.7177
+        },
+        "extensions": {
+          "1272": 1.0269192,
+          "1618": 1.0740098,
+          "2000": 1.126
+        }
+      },
+      "volume_profile": {
+        "POC": 0.7521,
+        "value_area_high": 0.90792,
+        "value_area_low": 0.72242,
+        "value_area_range_pct": 25.67758368,
+        "high_volume_nodes": [
+          {
+            "price": 0.73726,
+            "volume": 2159607.995
+          },
+          {
+            "price": 0.74468,
+            "volume": 3042519.145
+          },
+          {
+            "price": 0.7521,
+            "volume": 3365638.64
+          },
+          {
+            "price": 0.75952,
+            "volume": 3360534.36333333
+          },
+          {
+            "price": 0.76694,
+            "volume": 2625041.415
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.715,
+            "volume": 344094.11333333
+          },
+          {
+            "price": 0.95986,
+            "volume": 228068.05
+          },
+          {
+            "price": 0.96728,
+            "volume": 126597.83333333
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 10.25059666,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 186.176,
+    "alphaScore": 186.176,
+    "conviction": "HIGH",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 22,
+      "bearScore": 5.175
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  },
+  {
+    "bybit_symbol": "DOODUSDT",
+    "symbol": "DOODUSDT",
+    "name": "Doodles",
+    "price": 0.006628350550645216,
+    "logo": "https://cdn.lunarcrush.com/doodles.png",
+    "network": "solana",
+    "address": "CfJ58KZpVvPm5ketxbUMmRMHZh41AWZh9qx8r9cspump",
+    "category_main": "solana-ecosystem",
+    "score": 55.2,
+    "tier": "C",
+    "tags": [
+      "ALTRANK_IMPROVING",
+      "GALAXY_IMPROVING",
+      "HIGH_ENGAGEMENT",
+      "LEVERAGED_INTEREST",
+      "BULLISH_SENTIMENT",
+      "PRICE_MOMENTUM_24H",
+      "TRADEABLE_VOL"
+    ],
+    "reasons": [
+      "AltRank ↑ by 943",
+      "Galaxy ↑ by 27.6",
+      "Engagement eff. 102.5",
+      "OI/Turnover 0.81",
+      "Sentiment 82",
+      "24h 8.71%",
+      "Volatility 0.0545"
+    ],
+    "derived": {
+      "pct_change_1h": -0.28,
+      "pct_change_24h": 8.71,
+      "volatility": 0.0545,
+      "oi_ratio": 0.808,
+      "engagement_efficiency": 102.53,
+      "galaxy": 62.6,
+      "galaxy_prev": 35,
+      "galaxy_jump": 27.6,
+      "alt_rank": 173,
+      "alt_rank_prev": 1116,
+      "alt_rank_jump": 943,
+      "sentiment": 82,
+      "volume24h": 602157410,
+      "turnover24h": 3923479.8494,
+      "openInterestValue": 3169885.83,
+      "fundingRate": 0.0000125,
+      "market_cap": 51768199.53,
+      "market_cap_rank": 633,
+      "circulating_supply": 7800000000,
+      "max_supply": 10000000000,
+      "social_dominance": 0.06073282408564914,
+      "market_dominance": 0.0015004225558872858
+    },
+    "raw": {
+      "symbol": "DOOD",
+      "bybit_symbol": "DOODUSDT",
+      "lastPrice": "0.006718",
+      "price24hPcnt": "0.087055",
+      "percent_change_1h": -0.28187319978900277,
+      "percent_change_24h": 8.28498105149609,
+      "interactions_24h": 66748,
+      "social_volume_24h": 651,
+      "galaxy_score": 62.6,
+      "galaxy_score_previous": 35,
+      "alt_rank": 173,
+      "alt_rank_previous": 1116,
+      "volatility": 0.0545,
+      "categories": "solana-ecosystem,made-in-usa",
+      "topic": "dood doodles",
+      "logo": "https://cdn.lunarcrush.com/doodles.png",
+      "blockchains": [
+        {
+          "network": "solana",
+          "address": "CfJ58KZpVvPm5ketxbUMmRMHZh41AWZh9qx8r9cspump",
+          "decimals": null
+        },
+        {
+          "network": "bnbchain",
+          "address": "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9",
+          "decimals": null
+        }
+      ],
+      "highPrice24h": "0.007144",
+      "lowPrice24h": "0.005810",
+      "indexPrice": "0.006717",
+      "markPrice": "0.006717",
+      "bid1Price": "0.006713",
+      "ask1Price": "0.006718",
+      "market_cap_rank": 633
+    },
+    "source": "funding_history",
+    "data": {
+      "contractType": "LinearPerpetual",
+      "settleCoin": "USDT",
+      "status": "Trading",
+      "baseCoin": "DOOD",
+      "quoteCoin": "USDT",
+      "minOrderQty": 10,
+      "maxOrderQty": 10000000,
+      "qtyStep": 10,
+      "minNotionalValue": 5,
+      "tickSize": 0.000001,
+      "maxLeverage": 12.5,
+      "launchTime": "1746796833000",
+      "fundingIntervalMinutes": 60,
+      "tradable": true,
+      "bid_price": 0.006722,
+      "ask_price": 0.006726,
+      "mid_price": 0.006724,
+      "spread_pct": 0.0594883997620543,
+      "bid_vol5": 112360,
+      "ask_vol5": 250810,
+      "imbalance_5_levels": -0.38122642288735303,
+      "imbalance_delta": 0,
+      "last_updated": "2025-11-08T07:55:15.678Z",
+      "current": 0.0000125,
+      "avg": 0.0000125,
+      "avg_7": 0.0000125,
+      "recent_history": [
+        0.0000125,
+        0.0000125,
+        0.0000125,
+        0.0000125,
+        0.0000125
+      ],
+      "ready": true
+    },
+    "ta_4h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.006716
+      },
+      "ema": {
+        "ema20": 0.00644305,
+        "ema50": 0.00670394,
+        "ema200": 0.00687331
+      },
+      "rsi": 56.07185262,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 19.83415369,
+        "plusDI": 24.43684634,
+        "minusDI": 16.37168142
+      },
+      "adx_signal": "WEAK",
+      "atr": 0.00035514,
+      "atr_pct": 5.29,
+      "bollinger": {
+        "upper": 0.00687741,
+        "middle": 0.0063077,
+        "lower": 0.00573799,
+        "bandwidth": 18.064091490622527
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.00267,
+          0.002872,
+          0.003402,
+          0.004867,
+          0.005652
+        ],
+        "resistance_levels": [
+          0.017835,
+          0.009577,
+          0.008711,
+          0.006135,
+          0.004606
+        ],
+        "support": 0.005652,
+        "resistance": 0.008711
+      },
+      "fibs": {
+        "swing_high": 0.009577,
+        "swing_low": 0.005652,
+        "retracements": {
+          "0": 0.009577,
+          "236": 0.0086507,
+          "382": 0.00807765,
+          "500": 0.0076145,
+          "618": 0.007151350000000001,
+          "786": 0.00649195,
+          "1000": 0.005652
+        },
+        "extensions": {
+          "1272": 0.014569600000000002,
+          "1618": 0.01592765,
+          "2000": 0.017427
+        }
+      },
+      "volume_profile": {
+        "POC": 0.0078261,
+        "value_area_high": 0.008736,
+        "value_area_low": 0.0029733,
+        "value_area_range_pct": 193.81495308,
+        "high_volume_nodes": [
+          {
+            "price": 0.0038832,
+            "volume": 3513720176.6666665
+          },
+          {
+            "price": 0.0053997,
+            "volume": 3352842064.3888884
+          },
+          {
+            "price": 0.005703,
+            "volume": 4344737770.222222
+          },
+          {
+            "price": 0.0060063,
+            "volume": 3549123602.722222
+          },
+          {
+            "price": 0.0063096,
+            "volume": 3078936440.3801165
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.00267,
+            "volume": 813333160
+          },
+          {
+            "price": 0.0090393,
+            "volume": 672945266.2134503
+          },
+          {
+            "price": 0.0093426,
+            "volume": 672945266.2134503
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 16.52918404,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+8%"
+      }
+    },
+    "ta_1h_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.006716
+      },
+      "ema": {
+        "ema20": 0.00662899,
+        "ema50": 0.00644926,
+        "ema200": 0.00670319
+      },
+      "rsi": 55.5227353,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 39.41661934,
+        "plusDI": 15.69373942,
+        "minusDI": 22.25042301
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00016886,
+      "atr_pct": 2.51,
+      "bollinger": {
+        "upper": 0.00726523,
+        "middle": 0.00663225,
+        "lower": 0.00599927,
+        "bandwidth": 19.087995560695806
+      },
+      "market_structure": {
+        "structure": "DOWNTREND",
+        "support_levels": [
+          0.005652,
+          0.005737,
+          0.005996,
+          0.007026,
+          0.007518
+        ],
+        "resistance_levels": [
+          0.009577,
+          0.0088,
+          0.008711,
+          0.008625,
+          0.006988
+        ],
+        "support": 0.005737,
+        "resistance": 0.006988
+      },
+      "fibs": {
+        "swing_high": 0.007144,
+        "swing_low": 0.005737,
+        "retracements": {
+          "0": 0.007144,
+          "236": 0.006811948,
+          "382": 0.006606526,
+          "500": 0.0064405,
+          "618": 0.006274474,
+          "786": 0.006038098,
+          "1000": 0.005737
+        },
+        "extensions": {
+          "1272": 0.008933704,
+          "1618": 0.009420526,
+          "2000": 0.009958000000000002
+        }
+      },
+      "volume_profile": {
+        "POC": 0.00772044,
+        "value_area_high": 0.01024908,
+        "value_area_low": 0.00434892,
+        "value_area_range_pct": 135.66954554,
+        "high_volume_nodes": [
+          {
+            "price": 0.0051918,
+            "volume": 2997034314.2156863
+          },
+          {
+            "price": 0.00547276,
+            "volume": 3783775510.0490193
+          },
+          {
+            "price": 0.00575372,
+            "volume": 3290361907.2156863
+          },
+          {
+            "price": 0.00603468,
+            "volume": 3113638331.382353
+          },
+          {
+            "price": 0.00631564,
+            "volume": 2634694774.600744
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.003787,
+            "volume": 287959380
+          },
+          {
+            "price": 0.00406796,
+            "volume": 168997415
+          },
+          {
+            "price": 0.00434892,
+            "volume": 675632805.8333333
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 14.95592615,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+6%"
+      }
+    },
+    "ta_15m_with_vp": {
+      "ready": true,
+      "valid_data": true,
+      "prices": {
+        "close": 0.006716
+      },
+      "ema": {
+        "ema20": 0.00671121,
+        "ema50": 0.00671404,
+        "ema200": 0.00644952
+      },
+      "rsi": 42.33660703,
+      "rsi_signal": "NEUTRAL",
+      "adx": {
+        "adx": 37.08528602,
+        "plusDI": 13.35282651,
+        "minusDI": 24.26900585
+      },
+      "adx_signal": "TRENDING",
+      "atr": 0.00007329,
+      "atr_pct": 1.09,
+      "bollinger": {
+        "upper": 0.00687922,
+        "middle": 0.00671435,
+        "lower": 0.00654948,
+        "bandwidth": 4.911045900521052
+      },
+      "market_structure": {
+        "structure": "RANGING",
+        "support_levels": [
+          0.005737,
+          0.00581,
+          0.005894,
+          0.00592,
+          0.00593
+        ],
+        "resistance_levels": [
+          0.007144,
+          0.006988,
+          0.006423,
+          0.006258,
+          0.006216
+        ],
+        "support": 0.00581,
+        "resistance": 0.007144
+      },
+      "fibs": {
+        "swing_high": 0.007144,
+        "swing_low": 0.00581,
+        "retracements": {
+          "0": 0.007144,
+          "236": 0.006829176,
+          "382": 0.006634412,
+          "500": 0.006477,
+          "618": 0.006319588,
+          "786": 0.006095476,
+          "1000": 0.00581
+        },
+        "extensions": {
+          "1272": 0.008840848,
+          "1618": 0.009302412,
+          "2000": 0.009812000000000001
+        }
+      },
+      "volume_profile": {
+        "POC": 0.0078188,
+        "value_area_high": 0.00859204,
+        "value_area_low": 0.0066292,
+        "value_area_range_pct": 29.60900259,
+        "high_volume_nodes": [
+          {
+            "price": 0.00609388,
+            "volume": 341201976.80952376
+          },
+          {
+            "price": 0.00615336,
+            "volume": 293498029.97619045
+          },
+          {
+            "price": 0.00775932,
+            "volume": 346746727.6428572
+          },
+          {
+            "price": 0.0078188,
+            "volume": 500148444.80952376
+          },
+          {
+            "price": 0.00787828,
+            "volume": 391968780.6428571
+          }
+        ],
+        "low_volume_nodes": [
+          {
+            "price": 0.005737,
+            "volume": 20483617
+          },
+          {
+            "price": 0.00579648,
+            "volume": 36196670.33333333
+          },
+          {
+            "price": 0.00585596,
+            "volume": 63096033
+          }
+        ],
+        "price_position": "INSIDE_VALUE",
+        "at_POC": false,
+        "poc_distance_pct": 16.42048839,
+        "signal": "NEUTRAL"
+      },
+      "enhanced_signals": {
+        "vp_signal": "NEUTRAL",
+        "entry_quality": "GOOD (in value)",
+        "hvn_support_resistance": "YES",
+        "confidence_boost": "+3%"
+      }
+    },
+    "side": "BUY",
+    "alpha": 186.07999999999998,
+    "alphaScore": 186.07999999999998,
+    "conviction": "EXTREME",
+    "position_size_usdt": 70,
+    "_regime": {
+      "regime": "BEAR",
+      "confidence": "MED",
+      "strength": "WEAK",
+      "btc_price": 102302.56778378619,
+      "funding_rate": 0.00000856,
+      "bullScore": 3,
+      "bearScore": 6
+    },
+    "_market_state": {
+      "volatility_regime": "LOW",
+      "volatility_multiplier": 1.1,
+      "market_breadth": "STRONG_BULL",
+      "breadth_pct": 100,
+      "optimal_multiplier": 1.1
+    },
+    "_sideScores": {
+      "bullScore": 100,
+      "bearScore": 0
+    },
+    "vp_setup_quality": "EXCELLENT",
+    "vp_score": 58,
+    "vp_multi_tf_aligned": true
+  }
+]
